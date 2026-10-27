@@ -3,9 +3,12 @@ name: Build tailored resume PDFs
 on:
   push:
     branches:
+      - main
       - 'resumes/**'
+      - 'layout/**'
     paths:
-      - 'applications/**'
+      - 'resumes/**'
+      - main.tex
       - '.github/workflows/build-tailored-resumes.yml'
   workflow_dispatch:
 
@@ -18,24 +21,29 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v4
-      - name: Compile application resumes
+      - name: Compile individual job resumes
         uses: xu-cheng/latex-action@v4
         with:
-          root_file: applications/2026-10-27/*/main.tex
+          root_file: resumes/*_resume.tex
           work_in_root_file_dir: true
-          continue_on_error: true
-      - name: Inventory generated PDFs
-        if: always()
+      - name: Compile root Overleaf preview file
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+      - name: Verify PDF count and inventory
         run: |
-          find applications/2026-10-27 -name main.pdf -type f -print | sort > compiled_pdfs.txt
-          echo "PDFs built: $(wc -l < compiled_pdfs.txt)"
+          find resumes -maxdepth 1 -type f -name '*_resume.pdf' -print | sort > compiled_pdfs.txt
+          source_count=$(find resumes -maxdepth 1 -type f -name '*_resume.tex' | wc -l)
+          pdf_count=$(wc -l < compiled_pdfs.txt)
+          echo "Sources: $source_count | PDFs: $pdf_count"
           cat compiled_pdfs.txt
-      - name: Upload review PDFs
-        if: always()
+          test "$source_count" -eq "$pdf_count"
+          test -f main.pdf
+      - name: Upload PDFs for review
         uses: actions/upload-artifact@v4
         with:
-          name: tailored-resumes-2026-10-27
+          name: tailored-resumes-flat
           path: |
-            applications/2026-10-27/*/main.pdf
+            resumes/*_resume.pdf
             compiled_pdfs.txt
-          if-no-files-found: warn
+          if-no-files-found: error
