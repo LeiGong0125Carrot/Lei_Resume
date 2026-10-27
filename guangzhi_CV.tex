@@ -1,0 +1,474 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Guangzhi Xiong's CV},
+    pdfauthor={Guangzhi Xiong},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+\usepackage{charter}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+% Some settings:
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0.15cm} % set column seperation
+\pagenumbering{gobble} % no page numbering
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0 cm + 0.00001 cm
+    }{
+        0 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{threecolentry}[3][]{
+    \onecolentry
+    \def\thirdColumn{#3}
+    \setcolumnwidth{, \fill, 4.5 cm}
+    \begin{paracol}{3}
+    {\raggedright #2} \switchcolumn
+}{
+    \switchcolumn \raggedleft \thirdColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for three column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in September 2024}\hspace{\widthof{Last updated in September 2024}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+
+% \immediate\write18{curl -L -o medrag-stars.png "https://img.shields.io/github/stars/Teddy-XiongGZ/MedRAG?style=social"}
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25 pt}{25 pt}\selectfont Guangzhi Xiong
+
+        \vspace{5 pt}
+
+        \normalsize
+        \mbox{Address: Rice Hall 542, 85 Engineer's Way, Charlottesville, Virginia 22904}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 500.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:guangzhi@virginia.edu}{guangzhi@virginia.edu}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+1-434-257-7303}{(+1) 434-257-7303}}%
+        % \kern 5.0 pt%
+        % \AND%
+        % \kern 5.0 pt%
+        % \mbox{\hrefWithoutArrow{https://yourwebsite.com/}{yourwebsite.com}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://scholar.google.com/citations?user=_rp4-a4AAAAJ&hl=en}{Google Scholar}}%
+        \kern 5.0 pt%
+        \AND%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/gzxiong}{GitHub}}%
+    \end{header}
+
+    \vspace{5 pt - 0.3 cm}
+
+
+    % \section{Welcome to RenderCV!}
+    %     \begin{onecolentry}
+    %         \href{https://rendercv.com}{RenderCV} is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with \textbf{Markdown syntax support} and \textbf{complete control over the LaTeX code}.
+    %     \end{onecolentry}
+
+    %     \vspace{0.2 cm}
+
+    %     \begin{onecolentry}
+    %         The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
+    %     \end{onecolentry}
+
+
+    % \section{Quick Guide}
+    % \begin{onecolentry}
+    %     \begin{highlightsforbulletentries}
+    %     \item Each section title is arbitrary and each section contains a list of entries.
+    %     \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
+    %     \item Select a section title, pick an entry type, and start writing your section!
+    %     \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
+    %     \end{highlightsforbulletentries}
+    % \end{onecolentry}
+    
+    \section{Education}        
+        \begin{twocolentry}{
+            United States
+        }
+            \textbf{University of Virginia}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{twocolentry}{
+            08/2022 – Present
+        }
+            Ph.D. in \textit{Computer Science} (GPA 4.00/4.00)\end{twocolentry}
+
+
+        % \vspace{0.10 cm}
+        \begin{onecolentry}
+            Advisor: \href{https://www.cs.virginia.edu/~az9eg/website/home.html}{Aidong Zhang}
+        \end{onecolentry}
+
+
+
+        % \begin{twocolentry}{
+        %     United States
+        % }
+        %     \textbf{University of Virginia}\end{twocolentry}
+
+        % \vspace{0.10 cm}
+        % \begin{twocolentry}{
+        %     08/2022 – 05/2025
+        % }
+        %     M.S. in \textit{Computer Science} (GPA 4.00/4.00)\end{twocolentry}
+
+
+        
+        \vspace{0.10 cm}
+        \begin{twocolentry}{
+            China
+        }
+            \textbf{Tsinghua University}\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{twocolentry}{
+            09/2018 – 06/2022
+        }
+            B.A. in \textit{English Language} (GPA 3.81/4.00)\end{twocolentry}
+
+    
+    \section{Experience}
+        
+        \begin{twocolentry}{
+            05/2025 – 08/2025
+        }
+            \textbf{Applied Scientist Intern}, Amazon -- Seattle, WA\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed language modeling and reasoning approaches to enhance personalized shopping by improving the interest annotation for both products and customers.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            08/2022 – Present
+        }
+            \textbf{Graduate Research Assistant}, University of Virginia -- Charlotttesville, VA\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Conducted advanced research on machine learning, artificial intelligence, and large language models to improve their performance and reliability. Designed and implemented novel algorithms to enhance trustworthy AI for diverse downstream applications.
+            \end{highlights}
+        \end{onecolentry}
+
+
+
+    
+
+    \section{Research Areas}
+        \begin{onecolentry}
+            Explainable Artificial Intelligence
+            \begin{highlightsforbulletentries}
+            \item Generalized Additive Models, Prototype Learning, Concept Learning, Sparse Autoencoders
+            \end{highlightsforbulletentries}
+        \end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            Large (Vision) Language Models
+            \begin{highlightsforbulletentries}
+            \item Retrieval Augmented Generation, Agents, Process Reward Modeling, Post-training, In-context Learning
+            \end{highlightsforbulletentries}
+        \end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            Biomedical Informatics
+            \begin{highlightsforbulletentries}
+            \item Medical Question Answering, Single-cell RNA-seq Analysis,  LLM/VLM for Healthcare
+            \end{highlightsforbulletentries}
+        \end{onecolentry}
+        
+    \section{Publications}
+        \begin{enumerate}[label={[\arabic*]}]
+            
+            \item \textbf{Retrieving Counterfactuals Improves Visual In-Context Learning} [\href{https://gzxiong.github.io/CIRCLES/}{homepage}] [\href{https://arxiv.org/abs/2603.16737}{paper}] [\href{https://github.com/gzxiong/CIRCLES}{code}] \\
+            \underline{Guangzhi Xiong}, Sanchit Sinha, Zhenghao He, Aidong Zhang \\
+            \textbf{CVPR}, 2026
+            
+            \item \textbf{Toward Faithful Retrieval-Augmented Generation with Sparse Autoencoders} [\href{https://gzxiong.github.io/RAGLens/}{homepage}] [\href{https://arxiv.org/abs/2512.08892}{paper}] [\href{https://github.com/gzxiong/RAGLens}{code}]\\
+            \underline{Guangzhi Xiong}, Zhenghao He, Bohan Liu, Sanchit Sinha, Aidong Zhang \\
+            \textbf{ICLR}, 2026
+            
+            \item \textbf{Neural Additive Experts: Context-Gated Experts for Controllable Model Additivity} [\href{https://arxiv.org/abs/2602.10585}{paper}] [\href{https://github.com/gzxiong/NAE}{code}]\\
+            \underline{Guangzhi Xiong}, Sanchit Sinha, Aidong Zhang \\
+            \textbf{AISTATS}, 2026
+
+            \item \textbf{Concept-RuleNet: Grounded Multi-Agent Neurosymbolic Reasoning in Vision Language Models} [\href{https://arxiv.org/abs/2511.11751}{paper}] \\
+            Sanchit Sinha, \underline{Guangzhi Xiong}, Zhenghao He, Aidong Zhang \\
+            \textbf{AAAI}, 2026
+            
+            \item \textbf{RAG-Gym: Systematic Optimization of Language Agents for Retrieval-Augmented Generation} [\href{https://rag-gym.github.io/}{homepage}] [\href{https://arxiv.org/abs/2502.13957}{paper}] [\href{https://github.com/RAG-Gym/RAG-Gym}{code}] [\href{https://huggingface.co/RAG-Gym}{models}]\\
+            \underline{Guangzhi Xiong}, Qiao Jin, Xiao Wang, Yin Fang, Haolin Liu, Yifan Yang, Fangyuan Chen, Zhixing Song, Dengyu Wang, Minjia Zhang, Zhiyong Lu, Aidong Zhang \\
+            Under review, 2025
+            
+            \item \textbf{Toward Reliable Scientific Hypothesis Generation: Evaluating Truthfulness and Hallucination in Large Language Models} [\href{https://www.ijcai.org/proceedings/2025/0873}{paper}] [\href{https://github.com/gzxiong/TruthHypo}{code}] \\
+            \underline{Guangzhi Xiong}, Eric Xie, Corey Williams, Myles Kim, Amir Hassan Shariatmadari, Sikun Guo, Stefan Bekiranov, Aidong Zhang \\
+            \textbf{IJCAI}, 2025
+            
+            \item \textbf{ASCENT-ViT: Attention-based Scale-aware Concept Learning Framework for Enhanced Alignment in Vision Transformers} [\href{https://www.ijcai.org/proceedings/2025/0058}{paper}] [\href{https://github.com/sanchit97/ASCENT-ViT}{code}] \\
+            Sanchit Sinha, \underline{Guangzhi Xiong}, Aidong Zhang \\
+            \textbf{IJCAI}, 2025
+
+            \item \textbf{GCAV: A Global Concept Activation Vector Framework for Cross-Layer Consistency in Interpretability} [\href{https://arxiv.org/abs/2508.21197}{paper}][\href{https://github.com/Zhenghao-He/GCAV}{code}]\\
+            Zhenghao He, Sanchit Sinha, \underline{Guangzhi Xiong}, Aidong Zhang \\
+            \textbf{ICCV}, 2025
+
+            \item \textbf{COCO-Tree: Compositional Hierarchical Concept Trees for Enhanced Reasoning in Vision Language Models} [\href{https://arxiv.org/abs/2510.11012}{paper}][\href{https://github.com/sanchit97/COCO-Tree}{code}]\\
+            Sanchit Sinha, \underline{Guangzhi Xiong}, Aidong Zhang \\
+            \textbf{EMNLP}, 2025
+            
+            \item \textbf{IdeaBench: Benchmarking Large Language Models for Research Idea Generation} [\href{https://arxiv.org/abs/2411.02429}{paper}] \\
+            Sikun Guo, Amir Hassan Shariatmadari, \underline{Guangzhi Xiong}, Albert Huang, Myles Kim, Corey M. Williams, Stefan Bekiranov, Aidong Zhang \\
+            \textbf{KDD D\&B Track}, 2025
+
+            \item \textbf{MedCite: Can Language Models Generate Verifiable Text for Medicine?} [\href{https://arxiv.org/abs/2506.06605}{paper}] \\
+            Xiao Wang, Mengjue Tan, Qiao Jin, \underline{Guangzhi Xiong}, Yu Hu, Aidong Zhang, Zhiyong Lu, Minjia Zhang \\
+            \textbf{ACL Findings}, 2025
+            
+            \item \textbf{ProtoNAM: Prototypical Neural Additive Models for Interpretable Deep Tabular Learning.} [\href{https://dl.acm.org/doi/10.1145/3766072}{paper}] [\href{https://github.com/gzxiong/ProtoNAM}{code}] \\
+            \underline{Guangzhi Xiong}, Sanchit Sinha, Aidong Zhang\\
+            \textbf{TKDD}, 2025
+            
+            \item \textbf{MedCalc-Bench: Evaluating Large Language Models for Medical Calculations.} [\href{https://proceedings.neurips.cc/paper_files/paper/2024/hash/99e81750f3fdfcaf9613db2dbf4bd623-Abstract-Datasets_and_Benchmarks_Track.html}{paper}] [\href{https://github.com/ncbi-nlp/MedCalc-Bench}{code}] [\href{https://huggingface.co/datasets/ncbi/MedCalc-Bench}{dataset}] \\
+            Nikhil Khandekar*, Qiao Jin*, \underline{Guangzhi Xiong*}, Soren Dunn, Serina S Applebaum, Zain Anwar, Maame Sarfo-Gyamfi, Conrad W Safranek, Abid A Anwar, Andrew Zhang, Aidan Gilson, Maxwell B Singer, Amisha Dave, Andrew Taylor, Aidong Zhang, Qingyu Chen, Zhiyong Lu\\
+            \textbf{NeurIPS D\&B Track (oral)}, 2024
+
+            \item \textbf{Improving Retrieval-Augmented Generation in Medicine with Iterative Follow-up Questions.} [\href{https://arxiv.org/abs/2408.00727}{paper}] \\
+            \underline{Guangzhi Xiong}, Qiao Jin, Zhiyong Lu, Aidong Zhang\\
+            \textbf{PSB}, 2025
+
+            \item \textbf{CoLiDR: Concept Learning using Aggregated Disentangled Representations.} [\href{https://dl.acm.org/doi/10.1145/3637528.3671938}{paper}] \\
+            Sanchit Sinha, \underline{Guangzhi Xiong}, Aidong Zhang \\
+            \textbf{KDD}, 2024
+
+            \item \textbf{Benchmarking retrieval-augmented generation for medicine.} [\href{https://gzxiong.github.io/benchmark-medical-rag/}{homepage}] [\href{https://aclanthology.org/2024.findings-acl.372/}{paper}] [\href{https://github.com/gzxiong/MedRAG}{code}] [\href{https://huggingface.co/MedRAG}{corpus}] \\
+            \underline{Guangzhi Xiong}, Qiao Jin, Zhiyong Lu, Aidong Zhang \\
+            \textbf{ACL Findings}, 2024
+
+            \item \textbf{A Self-explaining Neural Architecture for Generalizable Concept Learning.} [\href{https://www.ijcai.org/proceedings/2024/0056.pdf}{paper}] \\
+            Sanchit Sinha, \underline{Guangzhi Xiong}, Aidong Zhang \\
+            \textbf{IJCAI}, 2024
+            
+            \item \textbf{DeepGSEA: Explainable Deep Gene Set Enrichment Analysis for Single-cell Transcriptomic Data.} [\href{https://academic.oup.com/bioinformatics/article/40/7/btae434/7702331}{paper}] [\href{https://github.com/gzxiong/DeepGSEA}{code}] \\
+            \underline{Guangzhi Xiong}, Nathan John LeRoy, Stefan Bekiranov, Aidong Zhang \\
+            \textbf{Bioinformatics}, 2024
+
+            \item \textbf{ProtoCell4P: an explainable prototype-based neural network for patient classification using single-cell RNA-seq.} [\href{https://doi.org/10.1093/bioinformatics/btad493}{paper}] [\href{https://github.com/gzxiong/ProtoCell4P}{code}] \\
+            \underline{Guangzhi Xiong}, Stefan Bekiranov, Aidong Zhang \\
+            \textbf{Bioinformatics}, 2023
+
+            \item \textbf{Biomedical question answering: a survey of approaches and challenges.} [\href{https://dl.acm.org/doi/10.1145/3490238}{paper}] [\href{https://github.com/Andy-jqa/biomedical-qa-datasets}{summary}] \\
+            Qiao Jin, Zheng Yuan, \underline{Guangzhi Xiong}, Qianlan Yu, Huaiyuan Ying, Chuanqi Tan, Mosha Chen, Songfang Huang, Xiaozhong Liu, Sheng Yu \\
+            \textbf{ACM Computing Surveys}, 2022
+                    
+        \end{enumerate}
+
+    \section{Invited Talks}
+
+
+    \begin{twocolentry}{
+        2024
+    }
+    \textbf{Benchmarking retrieval-augmented generation for medicine.}
+    \end{twocolentry}
+    AMIA Annual Symposium
+
+    \vspace{0.2 cm}
+    
+    \begin{twocolentry}{
+        2024
+    }
+    \textbf{Benchmarking retrieval-augmented generation for medicine.}
+    \end{twocolentry}
+    National Institute of Health
+    
+    \section{Teaching \& Services}
+    % \section{Teaching}
+    
+    \begin{onecolentry}
+    \textbf{Teaching Assistant} 
+    \begin{highlights}
+    \item UVa CS 4774 - Machine Learning (Fall 2025)
+    \item UVa CS 6316 - Machine Learning (Fall 2023, Fall 2024)
+    \item UVa CS 6501-017 - GenAI Foundation and Application Overviews (Spring 2025)
+    \end{highlights}
+    \end{onecolentry}
+
+    % \section{Services}
+    \vspace{0.2 cm}
+    
+    \begin{onecolentry}
+    \textbf{Conference Reviewer}
+    \begin{highlights}
+    \item IJCAI 2026, AISTATS 2026, ICLR 2026, KDD 2026, AAAI 2026 Main \& AIA Track, ACM BCB 2025, NeurIPS 2025, ICML 2025, KDD 2025, AAAI 2025 AIA Track, AISTATS 2025, ICLR 2025, NeurIPS 2024, ACM BCB 2024, NeurIPS 2024 Workshop GenAI4Health
+    \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+    \begin{onecolentry}
+    \textbf{Journal Reviewer}
+    \begin{highlights}
+    \item Journal of the American Medical Informatics Association, Journal of Biomedical Informatics, Bioinformatics, Journal of Healthcare Informatics Research, Journal of Medical Internet Research, BMC Bioinformatics, BMC Medical Informatics and Decision Making, ACM Transactions on Computing for Healthcare, IEEE Transactions on Services Computing, JAMIA Open
+    \end{highlights}
+    \end{onecolentry}
+    
+    % \section{Technical Skills}
+
+    %     \begin{onecolentry}
+    %         \textbf{Programming:} Python, R, C/C++
+    %     \end{onecolentry}
+
+    %     \vspace{0.2 cm}
+
+    %     \begin{onecolentry}
+    %         \textbf{Tools \& Platforms:} PyTorch, Transformers, LangChain, MedRAG
+    %     \end{onecolentry}
+
+
+    
+
+\end{document}
