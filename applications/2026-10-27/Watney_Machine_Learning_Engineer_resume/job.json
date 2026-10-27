@@ -1,0 +1,16 @@
+{
+  "company": "Watney",
+  "role": "Machine Learning Engineer",
+  "location": "San Francisco, CA",
+  "priority": "Medium",
+  "compensation": "Not verified",
+  "official_application_url": "https://jobs.ashbyhq.com/watney/cef13944-13da-402b-b999-cab5b13e9381",
+  "status": "READY_FOR_REVIEW_NOT_APPLIED",
+  "required_qualifications": "Train and evaluate models on real robot data, clean datasets, imitation/RL methods, production Python/PyTorch",
+  "verified_strengths": "Multimodal ML evaluation experience partially transferable",
+  "unverified_or_missing_requirements": "Robotics control, imitation learning and real fleet deployment not documented",
+  "source_resume": "Lei_Resume_Ortet.tex",
+  "resume_path": "applications/2026-10-27/Watney_Machine_Learning_Engineer_resume/main.tex",
+  "date_checked": "2026-10-27",
+  "note": "Company official page reachable from public search. No application was submitted. Confirm sponsorship and exact eligibility directly with employer."
+}
