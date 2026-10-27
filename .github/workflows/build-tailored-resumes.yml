@@ -1,0 +1,41 @@
+name: Build tailored resume PDFs
+
+on:
+  push:
+    branches:
+      - 'resumes/**'
+    paths:
+      - 'applications/**'
+      - '.github/workflows/build-tailored-resumes.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Compile application resumes
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: applications/2026-10-27/*/main.tex
+          work_in_root_file_dir: true
+          continue_on_error: true
+      - name: Inventory generated PDFs
+        if: always()
+        run: |
+          find applications/2026-10-27 -name main.pdf -type f -print | sort > compiled_pdfs.txt
+          echo "PDFs built: $(wc -l < compiled_pdfs.txt)"
+          cat compiled_pdfs.txt
+      - name: Upload review PDFs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tailored-resumes-2026-10-27
+          path: |
+            applications/2026-10-27/*/main.pdf
+            compiled_pdfs.txt
+          if-no-files-found: warn
