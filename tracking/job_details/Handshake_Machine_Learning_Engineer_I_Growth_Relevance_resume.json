@@ -3,7 +3,7 @@
   "role": "Machine Learning Engineer I Growth Relevance",
   "official_apply_url": "https://jobs.ashbyhq.com/handshake/42aca7f5-2f58-40ef-a6ce-19027d32a12f",
   "location": "San Francisco CA",
-  "salary": "$150,000-$189,000 (verify)",
+  "salary": "Not disclosed on accessible official posting",
   "priority": "High",
   "jd_requirements": [
     "Python",
@@ -24,5 +24,6 @@
   "status": "Not applied",
   "checked_date": "2026-10-28",
   "resume_tex_path": "resumes/Handshake_Machine_Learning_Engineer_I_Growth_Relevance_resume.tex",
-  "pdf_verified": false
+  "pdf_verified": false,
+  "salary_source_verification": "Checked official Ashby posting 2026-10-28. Descriptive compensation policy is present but no role-specific numeric base range was exposed; previously recorded range removed."
 }
