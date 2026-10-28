@@ -24,6 +24,10 @@
   "status": "Not applied",
   "checked_date": "2026-10-28",
   "resume_tex_path": "resumes/Handshake_Machine_Learning_Engineer_I_Growth_Relevance_resume.tex",
-  "pdf_verified": false,
-  "salary_source_verification": "Checked official Ashby posting 2026-10-28. Descriptive compensation policy is present but no role-specific numeric base range was exposed; previously recorded range removed."
+  "pdf_verified": true,
+  "salary_source_verification": "Checked official Ashby posting 2026-10-28. Descriptive compensation policy is present but no role-specific numeric base range was exposed; previously recorded range removed.",
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
 }

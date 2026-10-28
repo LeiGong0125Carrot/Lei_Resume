@@ -25,5 +25,9 @@
   "status": "Not applied",
   "checked_date": "2026-10-28",
   "resume_tex_path": "resumes/Quora_Machine_Learning_Engineer_New_Grad_Content_Safety_resume.tex",
-  "pdf_verified": false
+  "pdf_verified": true,
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
 }

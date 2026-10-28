@@ -24,5 +24,9 @@
   "status": "Not applied",
   "checked_date": "2026-10-28",
   "resume_tex_path": "resumes/NewsBreak_AI_Growth_Intelligence_Engineer_New_Grad_resume.tex",
-  "pdf_verified": false
+  "pdf_verified": true,
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
 }
