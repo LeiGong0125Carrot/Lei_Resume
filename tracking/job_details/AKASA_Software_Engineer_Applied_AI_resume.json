@@ -1,0 +1,27 @@
+{
+  "company": "AKASA",
+  "role": "Software Engineer Applied AI",
+  "official_apply_url": "https://jobs.ashbyhq.com/akasa/73310b0b-a62f-416d-ab3e-c632926389d5",
+  "location": "San Francisco or NYC hybrid",
+  "salary": "$180,000-$250,000",
+  "priority": "High",
+  "jd_requirements": [
+    "Python applied AI",
+    "health data",
+    "NLP and agent evaluation"
+  ],
+  "matching_evidence": [
+    "MIMIC clinical outcome prediction, RAG for EHR, UMLS"
+  ],
+  "missing_evidence": [
+    "No confirmed HL7/FHIR or production clinical agents",
+    "seniority check"
+  ],
+  "customization_focus": "health",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/AKASA_Software_Engineer_Applied_AI_resume.tex",
+  "pdf_verified": false
+}

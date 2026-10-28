@@ -1,0 +1,30 @@
+{
+  "company": "Astera Labs",
+  "role": "Applied AI New College Graduate Non Silicon",
+  "official_apply_url": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731594005",
+  "location": "San Jose CA",
+  "salary": "$140,000-$155,000",
+  "priority": "High",
+  "jd_requirements": [
+    "New grad BS/MS",
+    "Python",
+    "RAG",
+    "agentic workflows",
+    "ML evaluation"
+  ],
+  "matching_evidence": [
+    "Dec 2026 MS",
+    "Python, retrieval augmented NLP and clinical ML experiments"
+  ],
+  "missing_evidence": [
+    "No enterprise full-stack production agents",
+    "sponsorship to confirm"
+  ],
+  "customization_focus": "rag",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Astera_Labs_Applied_AI_NCG_Non_Silicon_resume.tex",
+  "pdf_verified": false
+}

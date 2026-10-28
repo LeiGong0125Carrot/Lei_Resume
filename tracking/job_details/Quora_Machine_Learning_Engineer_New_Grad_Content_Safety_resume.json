@@ -1,0 +1,29 @@
+{
+  "company": "Quora",
+  "role": "Machine Learning Engineer New Grad Content Safety",
+  "official_apply_url": "https://jobs.ashbyhq.com/quora/40659fe7-545e-4b08-b6d7-2567b18b9ed3",
+  "location": "Remote US",
+  "salary": "$107,360-$152,900",
+  "priority": "High",
+  "jd_requirements": [
+    "Python",
+    "NLP",
+    "transformer models",
+    "evaluation",
+    "early 2027 start"
+  ],
+  "matching_evidence": [
+    "Clinical NLP, transformer classification, PyTorch and RAG",
+    "academic ML evaluation"
+  ],
+  "missing_evidence": [
+    "No deployed moderation agents or online experiment metrics"
+  ],
+  "customization_focus": "nlp",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Quora_Machine_Learning_Engineer_New_Grad_Content_Safety_resume.tex",
+  "pdf_verified": false
+}

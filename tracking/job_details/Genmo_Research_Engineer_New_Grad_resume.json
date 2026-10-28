@@ -1,0 +1,27 @@
+{
+  "company": "Genmo",
+  "role": "Research Engineer New Grad",
+  "official_apply_url": "https://jobs.ashbyhq.com/genmo/9b5477f4-97af-4aaa-b855-910c982ce191",
+  "location": "San Francisco CA onsite",
+  "salary": "Undisclosed",
+  "priority": "Medium",
+  "jd_requirements": [
+    "Recent BS/MS",
+    "2+ years ML",
+    "Python/PyTorch",
+    "generative vision"
+  ],
+  "matching_evidence": [
+    "Over 2 years RA, multimodal VLM model evaluation and research"
+  ],
+  "missing_evidence": [
+    "No diffusion/GAN or video generation training reported"
+  ],
+  "customization_focus": "vision",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Genmo_Research_Engineer_New_Grad_resume.tex",
+  "pdf_verified": false
+}

@@ -1,0 +1,26 @@
+{
+  "company": "Brain Co",
+  "role": "Machine Learning Engineer Applied AI",
+  "official_apply_url": "https://jobs.ashbyhq.com/brainco/58cff031-5b0b-4b92-a1ea-2ebf2495d89d/",
+  "location": "San Francisco Bay Area hybrid",
+  "salary": "Undisclosed",
+  "priority": "Medium",
+  "jd_requirements": [
+    "PyTorch",
+    "LLM post-training",
+    "institutional applied AI"
+  ],
+  "matching_evidence": [
+    "Clinical ML, VLM on-policy distillation research and quant evaluation"
+  ],
+  "missing_evidence": [
+    "Production delivery and government-client restrictions unverified"
+  ],
+  "customization_focus": "health",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Brain_Co_Machine_Learning_Engineer_Applied_AI_resume.tex",
+  "pdf_verified": false
+}

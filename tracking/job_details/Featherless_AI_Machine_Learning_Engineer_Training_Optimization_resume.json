@@ -1,0 +1,27 @@
+{
+  "company": "Featherless AI",
+  "role": "Machine Learning Engineer Training Optimization",
+  "official_apply_url": "https://jobs.ashbyhq.com/featherlessai/dcbb7273-4d0e-4fd0-bb33-1e0ad99eca69",
+  "location": "Remote worldwide",
+  "salary": "Undisclosed",
+  "priority": "Medium",
+  "jd_requirements": [
+    "Python",
+    "PyTorch",
+    "training efficiency",
+    "GPU optimization"
+  ],
+  "matching_evidence": [
+    "Transformer model experiments, multimodal post-training collaboration"
+  ],
+  "missing_evidence": [
+    "No DeepSpeed/FSDP, multi-node or kernel optimization evidence"
+  ],
+  "customization_focus": "infra",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Featherless_AI_Machine_Learning_Engineer_Training_Optimization_resume.tex",
+  "pdf_verified": false
+}

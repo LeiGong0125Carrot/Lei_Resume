@@ -1,0 +1,28 @@
+{
+  "company": "Rowspace",
+  "role": "Applied AI Engineer",
+  "official_apply_url": "https://jobs.ashbyhq.com/rowspace/2e05ca78-e2f8-4612-81dd-ae003c4509a8",
+  "location": "San Francisco or NYC onsite",
+  "salary": "$150,000-$300,000",
+  "priority": "High",
+  "jd_requirements": [
+    "RAG",
+    "knowledge graphs",
+    "retrieval",
+    "evaluation",
+    "Python"
+  ],
+  "matching_evidence": [
+    "Retrieval augmented NLP, biomedical KG and benchmarking"
+  ],
+  "missing_evidence": [
+    "Finance domain and production full-stack applications not documented"
+  ],
+  "customization_focus": "rag",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Rowspace_Applied_AI_Engineer_resume.tex",
+  "pdf_verified": false
+}

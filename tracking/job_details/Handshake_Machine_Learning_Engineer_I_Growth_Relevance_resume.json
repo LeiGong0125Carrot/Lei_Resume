@@ -1,0 +1,28 @@
+{
+  "company": "Handshake",
+  "role": "Machine Learning Engineer I Growth Relevance",
+  "official_apply_url": "https://jobs.ashbyhq.com/handshake/42aca7f5-2f58-40ef-a6ce-19027d32a12f",
+  "location": "San Francisco CA",
+  "salary": "$150,000-$189,000 (verify)",
+  "priority": "High",
+  "jd_requirements": [
+    "Python",
+    "PyTorch",
+    "ML experiments",
+    "early-career ML"
+  ],
+  "matching_evidence": [
+    "Purdue applied statistics",
+    "model comparisons and predictive classification"
+  ],
+  "missing_evidence": [
+    "No growth ranking, online A/B testing or production cloud deployment"
+  ],
+  "customization_focus": "analytics",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Handshake_Machine_Learning_Engineer_I_Growth_Relevance_resume.tex",
+  "pdf_verified": false
+}

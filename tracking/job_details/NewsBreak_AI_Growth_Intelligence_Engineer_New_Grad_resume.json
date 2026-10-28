@@ -1,0 +1,28 @@
+{
+  "company": "NewsBreak",
+  "role": "AI Growth Intelligence Engineer New Grad",
+  "official_apply_url": "https://job-boards.greenhouse.io/newsbreak/jobs/4694899006",
+  "location": "Mountain View CA",
+  "salary": "$135,000-$155,000",
+  "priority": "Medium",
+  "jd_requirements": [
+    "Recent CS graduate",
+    "Python",
+    "SQL",
+    "analytics",
+    "data pipelines"
+  ],
+  "matching_evidence": [
+    "Applied statistics major, Python/SQL and EHR predictive ML"
+  ],
+  "missing_evidence": [
+    "No advertising growth KPIs, Spark/Hive or production backend"
+  ],
+  "customization_focus": "analytics",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/NewsBreak_AI_Growth_Intelligence_Engineer_New_Grad_resume.tex",
+  "pdf_verified": false
+}

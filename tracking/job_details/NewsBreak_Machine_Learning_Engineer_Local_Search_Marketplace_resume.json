@@ -1,0 +1,28 @@
+{
+  "company": "NewsBreak",
+  "role": "Machine Learning Engineer Local Search Marketplace",
+  "official_apply_url": "https://job-boards.greenhouse.io/newsbreak/jobs/4699218006",
+  "location": "Mountain View CA",
+  "salary": "$190,000-$300,000",
+  "priority": "High",
+  "jd_requirements": [
+    "Python ML",
+    "retrieval/search",
+    "NLP",
+    "knowledge graph",
+    "experimentation"
+  ],
+  "matching_evidence": [
+    "RAG with biomedical texts, clinical KG and representation learning"
+  ],
+  "missing_evidence": [
+    "No marketplace ranking experiments or production search deployment"
+  ],
+  "customization_focus": "rag",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/NewsBreak_Machine_Learning_Engineer_Local_Search_Marketplace_resume.tex",
+  "pdf_verified": false
+}
