@@ -1,0 +1,31 @@
+{
+  "company": "NewsBreak",
+  "role": "Software Engineer ML Infra Junior New Grad",
+  "official_apply_url": "https://job-boards.greenhouse.io/newsbreak/jobs/4615879006",
+  "location": "Mountain View CA",
+  "salary": "$125,000-$175,000",
+  "priority": "High",
+  "jd_requirements": [
+    "MS/PhD or BS experience",
+    "Python",
+    "PyTorch",
+    "training pipelines"
+  ],
+  "matching_evidence": [
+    "MS CS, training and validating deep learning architectures"
+  ],
+  "missing_evidence": [
+    "No verified cloud infrastructure, online model serving or MLOps"
+  ],
+  "customization_focus": "infra",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/NewsBreak_Software_Engineer_ML_Infra_Junior_New_Grad_resume.tex",
+  "pdf_verified": true,
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
+}

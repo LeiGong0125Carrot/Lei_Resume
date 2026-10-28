@@ -1,0 +1,35 @@
+{
+  "company": "Wonderschool",
+  "role": "Early Career Software Engineer Applied AI",
+  "official_apply_url": "https://job-boards.greenhouse.io/wonderschool/jobs/6359139003",
+  "location": "San Francisco, CA, onsite 5-6 days/week",
+  "salary": "$100,000-$120,000",
+  "priority": "Medium",
+  "jd_requirements": [
+    "Bachelor's in CS or engineering",
+    "Strong Python/JavaScript/TypeScript and AI/ML frameworks",
+    "Develop and iterate AI agents and RAG pipelines",
+    "In-person SF 5-6 days with customer-support component"
+  ],
+  "matching_evidence": [
+    "CS bachelor's and master's; Python/PyTorch model development",
+    "RAG clinical NLP, knowledge enhancement and experimental retrieval evaluation",
+    "Transformer based natural language processing and qualitative metric analysis"
+  ],
+  "missing_evidence": [
+    "Production conversational agents and LangChain/Rasa tools not demonstrated",
+    "Cloud API integration and extensive direct customer support not documented",
+    "Role requires 5-6 onsite days and up to 50% support engagement; OPT unknown"
+  ],
+  "customization_focus": "Computer science graduate researcher focused on retrieval-augmented NLP, Python/PyTorch modeling, and reliable AI evaluation.",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Not verified for F-1 OPT or future sponsorship; no current OPT EAD or green card",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Wonderschool_Early_Career_Software_Engineer_Applied_AI_resume.tex",
+  "pdf_verified": true,
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
+}

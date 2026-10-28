@@ -1,0 +1,31 @@
+{
+  "company": "Symmetry",
+  "role": "Applied AI Engineer",
+  "official_apply_url": "https://jobs.ashbyhq.com/Symmetry/694acb7c-c4f6-4350-8813-fe5052192b3d/",
+  "location": "Seattle WA onsite",
+  "salary": "Undisclosed",
+  "priority": "High",
+  "jd_requirements": [
+    "GraphRAG",
+    "semantic retrieval",
+    "LLMs",
+    "knowledge extraction"
+  ],
+  "matching_evidence": [
+    "UMLS semantic modeling, retrieval augmentation, knowledge graphs"
+  ],
+  "missing_evidence": [
+    "No verified LLM orchestration tools or customer-facing agents"
+  ],
+  "customization_focus": "rag",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Employer eligibility/sponsorship for F-1 OPT and later steps not confirmed. Applicant does not yet hold OPT EAD or green card.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Symmetry_Applied_AI_Engineer_resume.tex",
+  "pdf_verified": true,
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
+}

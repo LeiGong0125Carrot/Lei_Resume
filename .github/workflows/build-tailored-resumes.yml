@@ -39,6 +39,22 @@ jobs:
           cat compiled_pdfs.txt
           test "$source_count" -eq "$pdf_count"
           test -f main.pdf
+      - name: Verify each PDF is exactly one page
+        run: |
+          if ! command -v pdfinfo >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq poppler-utils
+          fi
+          failures=0
+          for pdf in resumes/*_resume.pdf main.pdf; do
+            pages=$(pdfinfo "$pdf" | awk '/^Pages:/ {print $2}')
+            echo "$pdf: $pages page(s)"
+            if [ "$pages" != "1" ]; then
+              echo "::error file=$pdf::Expected one page; got $pages"
+              failures=1
+            fi
+          done
+          exit "$failures"
       - name: Upload PDFs for review
         uses: actions/upload-artifact@v4
         with:

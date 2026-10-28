@@ -1,0 +1,31 @@
+{
+  "company": "Goaly",
+  "role": "AI Research Scientist Early Career MS PhD",
+  "official_apply_url": "https://jobs.ashbyhq.com/goaly/ffc80152-df35-45d6-8c2c-36ea8b67eb37",
+  "location": "Palo Alto CA hybrid",
+  "salary": "Undisclosed",
+  "priority": "Medium",
+  "jd_requirements": [
+    "RL post-training",
+    "research evaluations",
+    "PhD or equivalent output"
+  ],
+  "matching_evidence": [
+    "OPD-Aha collaboration and ICLR 2026 coauthorship"
+  ],
+  "missing_evidence": [
+    "PhD preferred",
+    "multi-node RL training not established"
+  ],
+  "customization_focus": "posttrain",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Official employer posting explicitly supports H-1B and OPT/CPT; applicant EAD not yet approved.",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Goaly_AI_Research_Scientist_Early_Career_MS_PhD_resume.tex",
+  "pdf_verified": true,
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
+}

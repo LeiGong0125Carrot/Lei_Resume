@@ -1,0 +1,35 @@
+{
+  "company": "Fuel Cycle",
+  "role": "Associate AI Engineer",
+  "official_apply_url": "https://jobs.ashbyhq.com/fuel-cycle/0d24c1b6-e79b-4880-890f-a8ddb53b6d0d",
+  "location": "Los Angeles, CA, onsite",
+  "salary": "$90,000-$110,000",
+  "priority": "High",
+  "jd_requirements": [
+    "0-2 years SWE experience including research projects",
+    "Solid Python, SQL fundamentals and data structures",
+    "AI agent engineering with RAG, tool calling, vector search",
+    "Willingness to learn FastAPI, AWS Bedrock and production agents"
+  ],
+  "matching_evidence": [
+    "Purdue CS+Applied Statistics BS and UVA CS MS expected Dec 2026",
+    "Python, SQL, PyTorch, knowledge graph and clinical RAG research",
+    "Information extraction and experiments comparing transformer outcomes"
+  ],
+  "missing_evidence": [
+    "FastAPI/Strands Agent SDK, Bedrock AgentCore, pgvector and MCP tooling not evidenced",
+    "No shipped customer-facing API or agent service described",
+    "Confirm OPT eligibility; onsite LA required"
+  ],
+  "customization_focus": "Early-career Python and applied NLP researcher with experience building knowledge-enhanced retrieval methods and measuring model quality.",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Not verified for F-1 OPT or future sponsorship; no current OPT EAD or green card",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Fuel_Cycle_Associate_AI_Engineer_resume.tex",
+  "pdf_verified": true,
+  "pdf_compilation_verified": true,
+  "pdf_page_count": 1,
+  "pdf_ci_run_url": "https://github.com/LeiGong0125Carrot/Lei_Resume/actions/runs/40690246378",
+  "visual_reviewed": false
+}
