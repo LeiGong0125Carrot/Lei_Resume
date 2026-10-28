@@ -1,0 +1,31 @@
+{
+  "company": "Artera",
+  "role": "Machine Learning Scientist Computational Pathology",
+  "official_apply_url": "https://jobs.lever.co/artera/e69fa8b3-ecad-4f6a-b8b6-77d6542dfbe1",
+  "location": "Remote, United States",
+  "salary": "$140,000-$180,000",
+  "priority": "High",
+  "jd_requirements": [
+    "1+ years PyTorch deep learning in industry or substantial graduate research",
+    "Strong healthcare/biomedical modeling background",
+    "Develop and evaluate robust predictive models using clinical or pathology data",
+    "Coding agent and reproducible experimentation"
+  ],
+  "matching_evidence": [
+    "2+ years as UVA ML graduate RA using PyTorch and MIMIC EHR",
+    "SCoPe interpretable prediction with class-conditional prototypes and KL",
+    "ICDM 2025 EHR outcome prediction and clinical missing-data modeling"
+  ],
+  "missing_evidence": [
+    "Whole-slide image pathology and self-supervised vision model experience not demonstrated",
+    "Autonomous coding agents as model development workflow and regulatory process not in master resume",
+    "Immigration sponsorship not explicitly confirmed (application asks)"
+  ],
+  "customization_focus": "Clinical AI researcher with more than two years of graduate research in PyTorch, EHR outcome prediction, and rigorous model benchmarking.",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Not verified for F-1 OPT or future sponsorship; no current OPT EAD or green card",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Artera_Machine_Learning_Scientist_Computational_Pathology_resume.tex",
+  "pdf_verified": false
+}

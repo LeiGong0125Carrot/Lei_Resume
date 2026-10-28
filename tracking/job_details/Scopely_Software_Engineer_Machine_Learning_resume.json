@@ -1,0 +1,31 @@
+{
+  "company": "Scopely",
+  "role": "Software Engineer Machine Learning",
+  "official_apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5456049008",
+  "location": "San Francisco, CA",
+  "salary": "$165,131-$180,946",
+  "priority": "Medium",
+  "jd_requirements": [
+    "Master's degree in CS/related field with 1 year TA/related research or software experience",
+    "Python, machine learning, generative AI and SQL",
+    "Academic training or experience in systems programming and cloud computing",
+    "Model evaluation/deployment infrastructure and monitoring"
+  ],
+  "matching_evidence": [
+    "UVA CS master's expected Dec 2026 and Purdue teaching assistant experience",
+    "Python and SQL, PyTorch transformer training and quantitative model evaluation",
+    "Qwen multimodal post-training research collaboration (arXiv preprint)"
+  ],
+  "missing_evidence": [
+    "Academic training in cloud computing and systems programming not documented in master",
+    "No industry serving, monitoring, or production MLOps system ownership",
+    "Employer sponsorship and OPT policy not disclosed; verify"
+  ],
+  "customization_focus": "Machine learning researcher with a CS master's, prior teaching assistance, Python/SQL, and PyTorch experimentation in clinical and multimodal ML.",
+  "source_master": "Lei_Resume_Ortet.tex",
+  "visa_work_authorization": "Not verified for F-1 OPT or future sponsorship; no current OPT EAD or green card",
+  "status": "Not applied",
+  "checked_date": "2026-10-28",
+  "resume_tex_path": "resumes/Scopely_Software_Engineer_Machine_Learning_resume.tex",
+  "pdf_verified": false
+}
