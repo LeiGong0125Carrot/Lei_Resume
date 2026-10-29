@@ -1,0 +1,18 @@
+{
+  "company": "Faros",
+  "role": "Software Engineer New Grad",
+  "location": "San Mateo CA hybrid",
+  "priority": "Medium",
+  "salary": "$100,000-$180,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/faros-ai/622e1f1e-4a39-4e7c-8526-1189ca588066",
+  "requirements": "BS or MS CS; LLM APIs, embeddings, vector stores, tool use, prompt evaluation; Python/TypeScript; APIs and data pipelines preferred",
+  "matching_evidence": "Dec 2026 CS MS, Python, retrieval augmentation, embedding-based clinical NLP, knowledge graph construction and experiments",
+  "missing_evidence": "Production full-stack/TypeScript services, hosted vector DB tooling and API orchestration not documented",
+  "tailoring_focus": "Computer science graduate researcher bringing Python, retrieval-augmented NLP and knowledge-graph experience to AI-powered software engineering.",
+  "resume_tex_path": "resumes/Faros_Software_Engineer_New_Grad_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

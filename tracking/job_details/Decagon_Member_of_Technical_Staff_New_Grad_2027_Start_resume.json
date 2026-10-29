@@ -1,0 +1,18 @@
+{
+  "company": "Decagon",
+  "role": "Member of Technical Staff New Grad 2027 Start",
+  "location": "San Francisco CA or New York NY",
+  "priority": "Medium",
+  "salary": "Not verified on official JD",
+  "official_apply_link": "https://jobs.ashbyhq.com/decagon/a8ff946f-d6b1-4059-bc9f-fe6b11504f2f",
+  "requirements": "Dec 2026-July 2027 CS graduate; Python, TypeScript and asynchronous programming; shipped coursework/research projects; agent and orchestration platforms",
+  "matching_evidence": "UVA Dec 2026 MS; Python research implementations, RAG/NLP experiments and model evaluation collaborations",
+  "missing_evidence": "No evidence of TypeScript/async programming, deployed customer AI agents or production SRE infrastructure",
+  "tailoring_focus": "Early-career AI software engineer with Python, Transformer research and practical evaluation of retrieval-augmented language systems.",
+  "resume_tex_path": "resumes/Decagon_Member_of_Technical_Staff_New_Grad_2027_Start_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

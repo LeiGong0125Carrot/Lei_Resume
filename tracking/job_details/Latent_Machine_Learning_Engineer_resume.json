@@ -1,0 +1,18 @@
+{
+  "company": "Latent",
+  "role": "Machine Learning Engineer",
+  "location": "San Francisco CA",
+  "priority": "Medium",
+  "salary": "$225,000-$300,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/latent/233bbaac-d589-49f4-a8eb-6bb16673b060/",
+  "requirements": "ML for clinical workflows; model post-training, verifiable RL, PyTorch, real-world health data, ownership of production systems",
+  "matching_evidence": "UVA clinical NLP and EHR research, MIMIC SCoPe outcomes; PyTorch; OPD-Aha collaboration on on-policy training",
+  "missing_evidence": "Requires end-to-end ownership and production deployment of ML in clinical workflows; not established in original resume",
+  "tailoring_focus": "Clinical machine learning researcher combining EHR representation learning and interpretable outcome prediction with multimodal post-training collaborations.",
+  "resume_tex_path": "resumes/Latent_Machine_Learning_Engineer_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

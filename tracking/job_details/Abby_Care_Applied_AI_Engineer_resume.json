@@ -1,0 +1,18 @@
+{
+  "company": "Abby Care",
+  "role": "Applied AI Engineer",
+  "location": "San Francisco CA hybrid",
+  "priority": "High",
+  "salary": "Not clearly stated on reviewed page",
+  "official_apply_link": "https://jobs.ashbyhq.com/abby-care/8b476294-6286-4292-8836-329db2128f89",
+  "requirements": "2+ years ML/SWE/applied AI professional experience or equivalent ability; AI workflows, health operations, document/data pipelines, model evaluation",
+  "matching_evidence": "Academic ML research 2024-present; MIMIC EHR processing, biomedical retrieval, UMLS-enhanced clinical text modeling and quality benchmarking",
+  "missing_evidence": "Production healthcare applications, product-facing APIs and operations workflows not verified",
+  "tailoring_focus": "Healthcare ML engineer with research experience in clinical text understanding, electronic health records, retrieval augmentation and interpretable patient-level prediction.",
+  "resume_tex_path": "resumes/Abby_Care_Applied_AI_Engineer_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

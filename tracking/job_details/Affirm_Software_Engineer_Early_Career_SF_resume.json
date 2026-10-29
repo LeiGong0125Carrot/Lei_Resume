@@ -1,0 +1,18 @@
+{
+  "company": "Affirm",
+  "role": "Software Engineer Early Career SF",
+  "location": "San Francisco CA",
+  "priority": "Medium",
+  "salary": "$130,000-$180,000",
+  "official_apply_link": "https://job-boards.greenhouse.io/affirm/jobs/8010617003",
+  "requirements": "CS degree or equivalent, new-grad software fundamentals; debugging, programming and building reliable components",
+  "matching_evidence": "Purdue CS BS and UVA MS Dec 2026, Python, Java, research software/model implementations and evaluation",
+  "missing_evidence": "No production backend finance systems, consumer web services, payment infrastructure or cloud platform track record",
+  "tailoring_focus": "Early-career software engineer with computer science training and experience implementing and testing Python-based machine learning research systems.",
+  "resume_tex_path": "resumes/Affirm_Software_Engineer_Early_Career_SF_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

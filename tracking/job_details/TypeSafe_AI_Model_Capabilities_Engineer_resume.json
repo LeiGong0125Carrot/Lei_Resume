@@ -1,0 +1,18 @@
+{
+  "company": "TypeSafe AI",
+  "role": "Model Capabilities Engineer",
+  "location": "San Francisco CA",
+  "priority": "High",
+  "salary": "Undisclosed",
+  "official_apply_link": "https://jobs.ashbyhq.com/typesafe-ai/df3dbf1b-9a47-4d8a-88a8-d28c8b8a2ef0",
+  "requirements": "Hands-on LLM understanding, model capability evaluation and experiment design, product-facing technical judgment; job page explicitly lists visa sponsorship as a benefit",
+  "matching_evidence": "LLM/VLM benchmark experiments, PyTorch, model comparison, OPD-Aha research; clinical NLP evidence and evaluation",
+  "missing_evidence": "No documented production user interface development or frontier foundation-model serving",
+  "tailoring_focus": "Model evaluation and applied ML researcher studying language and multimodal model capabilities, error behavior and reproducible benchmarking.",
+  "resume_tex_path": "resumes/TypeSafe_AI_Model_Capabilities_Engineer_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Posting lists visa sponsorship as a benefit; current applicant work authorization not yet approved; verify eligibility with recruiter.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

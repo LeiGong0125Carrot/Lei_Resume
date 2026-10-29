@@ -1,0 +1,18 @@
+{
+  "company": "Factory",
+  "role": "Research Engineer",
+  "location": "San Francisco CA",
+  "priority": "Medium",
+  "salary": "Undisclosed",
+  "official_apply_link": "https://jobs.ashbyhq.com/factory/c5c92ee0-6ab9-4e91-b73a-63700c85fa5f",
+  "requirements": "2+ years hands-on AI/ML engineering since bachelor's degree; LLM systems, retrieval, code generation evaluation and agentic tool development",
+  "matching_evidence": "Purdue BS May 2023; UVA graduate RA Jan 2024-present; Python, RAG, Qwen multimodal evaluation and model research",
+  "missing_evidence": "No commercial code-generation agent deployments or autonomous customer-facing software products",
+  "tailoring_focus": "Research engineer with two-plus years of academic AI research, including retrieval-augmented language modeling, representation learning and model benchmarking.",
+  "resume_tex_path": "resumes/Factory_Research_Engineer_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}
