@@ -1,0 +1,18 @@
+{
+  "company": "Lunon",
+  "role": "Forward Deployed AI Engineer",
+  "location": "Remote US",
+  "priority": "Medium",
+  "salary": "$180,000-$210,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/lunon/706c16cf-f3ec-4a64-aad1-923ad1ce4131",
+  "requirements": "Prototype and deploy applied AI, retrieval, supervised fine-tuning or preference optimization/LoRA; demonstrated systems shipped and maintained",
+  "matching_evidence": "Research on retrieval-augmented biomedical NLP and multimodal on-policy distillation with Qwen evaluation",
+  "missing_evidence": "Lacks proven customer production systems, fine-tuning of deployed agents, full-stack deployments and consulting deliveries",
+  "tailoring_focus": "Applied ML researcher focusing on retrieval-augmented NLP, transformer adaptation research and evaluation of model behavior.",
+  "resume_tex_path": "resumes/Lunon_Forward_Deployed_AI_Engineer_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

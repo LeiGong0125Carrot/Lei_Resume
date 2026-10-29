@@ -1,0 +1,18 @@
+{
+  "company": "Ixian Robotics",
+  "role": "Robotics Machine Learning Engineer",
+  "location": "San Francisco CA",
+  "priority": "Medium",
+  "salary": "$150,000-$200,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/ixianrobotics/bb6c15db-3a8a-4666-a8b4-60b43b31bc58",
+  "requirements": "Deep learning training and experimental diagnosis; vision-language-action or imitation/RL exposure useful; evaluate models on physical tasks",
+  "matching_evidence": "Qwen VLM post-training and visual reasoning benchmark research, PyTorch experiments; general representation learning",
+  "missing_evidence": "No direct robot deployment, manipulation policy training or hardware-loop evaluation; higher technical transfer risk",
+  "tailoring_focus": "Multimodal machine learning researcher with Qwen VLM post-training collaboration, visual evaluation and PyTorch-based experimental modeling.",
+  "resume_tex_path": "resumes/Ixian_Robotics_Robotics_Machine_Learning_Engineer_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

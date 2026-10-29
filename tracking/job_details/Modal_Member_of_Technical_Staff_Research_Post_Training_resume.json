@@ -1,0 +1,18 @@
+{
+  "company": "Modal",
+  "role": "Member of Technical Staff Research Post Training",
+  "location": "New York NY or San Francisco CA",
+  "priority": "Medium",
+  "salary": "$150,000-$350,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/modal/7db771eb-e379-47fe-974f-765a8780dc10",
+  "requirements": "Novel LLM model training, optimization, post-training and inference research; research record; hands-on large-model experiments",
+  "matching_evidence": "Coauthored OPD-Aha arXiv preprint on multimodal on-policy distillation; Qwen3.5 post-training collaborations, VLM benchmark evaluation",
+  "missing_evidence": "No documented multi-node frontier post-training infrastructure at production/model-provider scale",
+  "tailoring_focus": "ML researcher contributing to multimodal on-policy distillation, model post-training studies and quantitative evaluation of visual reasoning.",
+  "resume_tex_path": "resumes/Modal_Member_of_Technical_Staff_Research_Post_Training_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}

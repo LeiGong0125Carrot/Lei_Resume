@@ -1,0 +1,18 @@
+{
+  "company": "Modal",
+  "role": "Member of Technical Staff Research Inference",
+  "location": "New York NY or San Francisco CA",
+  "priority": "Stretch",
+  "salary": "$150,000-$350,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/modal/73c97bbc-8e27-4c5d-b38b-90b3afdb0d93",
+  "requirements": "Advanced LLM inference research; familiarity with kernels, quantization and serving; research contributions; build research systems",
+  "matching_evidence": "Transformer training/evaluation and Qwen VLM post-training collaborations, empirical work in model accuracy and behavior",
+  "missing_evidence": "No documented low-level CUDA inference kernels, model parallelism, optimized serving stack or distributed inference shipping",
+  "tailoring_focus": "Transformer and multimodal machine learning researcher with model experimentation, reproducible evaluation and post-training collaboration.",
+  "resume_tex_path": "resumes/Modal_Member_of_Technical_Staff_Research_Inference_resume.tex",
+  "status": "Not applied",
+  "date_checked": "2026-10-29",
+  "work_authorization_and_sponsorship": "Not confirmed on publicly reviewed JD. Applicant has no approved OPT EAD/green card; must clarify whether employer accepts future OPT and potential sponsorship.",
+  "source": "Official employer careers page reviewed 2026-10-29",
+  "review_required": true
+}
