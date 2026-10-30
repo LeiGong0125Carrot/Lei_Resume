@@ -1,0 +1,28 @@
+{
+  "company": "Thinking Machines Lab",
+  "role": "Research, Post-Training Evals",
+  "priority": "Stretch",
+  "location": "San Francisco CA (on-site)",
+  "salary": "$350K-$475K research range",
+  "url": "https://jobs.ashbyhq.com/thinkingmachines/602f2a99-34eb-4fde-9eec-b4945ee4aab6/",
+  "requirements": "Advanced multimodal benchmark and post-training research, Python and PyTorch, PhD preferred",
+  "focus": [
+    "vlm",
+    "scope",
+    "umls"
+  ],
+  "gap": "No frontier-scale distributed evaluation infrastructure; PhD depth preferred",
+  "id": "Thinking_Machines_Lab_Research_Post_Training_Evals_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "SCoPe prototypical/KL learning and clinical prediction",
+    "UMLS and FLAN-T5 medical semantic integration"
+  ],
+  "work_authorization_review": "Employer advertises visa sponsorship, eligibility individual; OPT EAD not yet issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Thinking_Machines_Lab_Research_Post_Training_Evals_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

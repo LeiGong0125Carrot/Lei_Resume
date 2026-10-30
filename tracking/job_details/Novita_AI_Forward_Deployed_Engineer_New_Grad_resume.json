@@ -1,0 +1,28 @@
+{
+  "company": "Novita AI",
+  "role": "Forward Deployed Engineer New Grad",
+  "priority": "Medium",
+  "location": "San Mateo CA (on-site)",
+  "salary": "Not disclosed",
+  "url": "https://jobs.ashbyhq.com/novita-ai/0d9d673e-0753-4a38-bbf2-4ec019a0b26e",
+  "requirements": "BS/MS CS, Python plus other languages, Linux/API/network troubleshooting, LLM inference",
+  "focus": [
+    "vlm",
+    "rag",
+    "scope"
+  ],
+  "gap": "No customer cloud-native model serving or vLLM production",
+  "id": "Novita_AI_Forward_Deployed_Engineer_New_Grad_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "SCoPe prototypical/KL learning and clinical prediction"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Novita_AI_Forward_Deployed_Engineer_New_Grad_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

@@ -1,0 +1,28 @@
+{
+  "company": "Institute of Foundation Models",
+  "role": "Research Scientist, Agentic Data & Benchmarking",
+  "priority": "High",
+  "location": "Sunnyvale CA (on-site)",
+  "salary": "$150K-$450K wide range",
+  "url": "https://jobs.lever.co/ifm-us/ab7fbd2c-f809-4f08-ab53-3e666c9792eb",
+  "requirements": "BS/MS/PhD and 2+ years ML evaluation or data research, Python/PyTorch and LLM agents",
+  "focus": [
+    "vlm",
+    "scope",
+    "rag"
+  ],
+  "gap": "No production-scale RL environments or agentic vendor data pipeline",
+  "id": "Institute_of_Foundation_Models_Research_Scientist_Agentic_Data_Benchmarking_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "SCoPe prototypical/KL learning and clinical prediction",
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Institute_of_Foundation_Models_Research_Scientist_Agentic_Data_Benchmarking_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

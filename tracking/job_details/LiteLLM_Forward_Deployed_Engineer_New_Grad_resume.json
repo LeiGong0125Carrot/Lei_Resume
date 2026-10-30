@@ -1,0 +1,28 @@
+{
+  "company": "LiteLLM",
+  "role": "Forward Deployed Engineer (New Grad)",
+  "priority": "Medium",
+  "location": "US location unspecified",
+  "salary": "$150K-$210K",
+  "url": "https://jobs.ashbyhq.com/litellm/769df1b5-70bb-40fe-b2e2-ef052eb3afa3",
+  "requirements": "New-grad technical LLM gateway troubleshooting, Python API debugging and support",
+  "focus": [
+    "vlm",
+    "rag",
+    "umls"
+  ],
+  "gap": "No commercial API gateway support rotation or production reliability ownership",
+  "id": "LiteLLM_Forward_Deployed_Engineer_New_Grad_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "UMLS and FLAN-T5 medical semantic integration"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/LiteLLM_Forward_Deployed_Engineer_New_Grad_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

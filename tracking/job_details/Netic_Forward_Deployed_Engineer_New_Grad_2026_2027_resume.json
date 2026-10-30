@@ -1,0 +1,28 @@
+{
+  "company": "Netic",
+  "role": "Forward Deployed Engineer - New Grad 2026-2027",
+  "priority": "Medium",
+  "location": "San Francisco CA (on-site)",
+  "salary": "Not disclosed",
+  "url": "https://jobs.ashbyhq.com/netic/f2d170eb-c4c3-4715-9d2e-84dd4fe857c8",
+  "requirements": "New-grad Python/FastAPI, TypeScript, text/voice AI, RAG and customer deployments",
+  "focus": [
+    "rag",
+    "vlm",
+    "umls"
+  ],
+  "gap": "No proven FastAPI production, TTS, TypeScript or customer integrations",
+  "id": "Netic_Forward_Deployed_Engineer_New_Grad_2026_2027_resume",
+  "matching_evidence": [
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "UMLS and FLAN-T5 medical semantic integration"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Netic_Forward_Deployed_Engineer_New_Grad_2026_2027_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

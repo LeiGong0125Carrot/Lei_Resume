@@ -1,0 +1,28 @@
+{
+  "company": "Applied Intuition",
+  "role": "Research Engineer - New Grad (2027)",
+  "priority": "Medium",
+  "location": "Sunnyvale CA (on-site)",
+  "salary": "$140K-$200K",
+  "url": "https://jobs.ashbyhq.com/applied/45fc41cd-8280-4010-ba1f-def6114b3e39",
+  "requirements": "MS/PhD Dec 2026 or 2027; multi-modal visual/robotics research and PyTorch",
+  "focus": [
+    "vlm",
+    "scope",
+    "impute"
+  ],
+  "gap": "No robotics deployment or VLA manipulation model training",
+  "id": "Applied_Intuition_Research_Engineer_New_Grad_2027_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "SCoPe prototypical/KL learning and clinical prediction",
+    "ICDM 2025 attention-driven EHR imputation"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Applied_Intuition_Research_Engineer_New_Grad_2027_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

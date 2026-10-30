@@ -1,0 +1,28 @@
+{
+  "company": "Trace Labs",
+  "role": "Machine Learning Engineer, Applied",
+  "priority": "Stretch",
+  "location": "New York NY / US remote",
+  "salary": "$185K-$245K",
+  "url": "https://jobs.ashbyhq.com/tracelabs/84f1786a-1f06-4798-892c-682a6ab07ba5",
+  "requirements": "2+ years applied ML industry or research lab, PyTorch and model deployment",
+  "focus": [
+    "vlm",
+    "scope",
+    "impute"
+  ],
+  "gap": "Employer may not count academic RA as industry; no shipped applied ML product",
+  "id": "Trace_Labs_Machine_Learning_Engineer_Applied_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "SCoPe prototypical/KL learning and clinical prediction",
+    "ICDM 2025 attention-driven EHR imputation"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Trace_Labs_Machine_Learning_Engineer_Applied_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

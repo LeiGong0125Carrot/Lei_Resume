@@ -1,0 +1,28 @@
+{
+  "company": "Collate",
+  "role": "AI Engineer",
+  "priority": "Medium",
+  "location": "San Francisco CA (on-site)",
+  "salary": "$158K-$215K AI Engineer tier",
+  "url": "https://jobs.lever.co/collate/377f2cf3-6285-42c1-8130-dd3dd2c866cb",
+  "requirements": "Life sciences NLP, LLM retrieval and evaluation; production model deployment",
+  "focus": [
+    "rag",
+    "umls",
+    "scope"
+  ],
+  "gap": "Production AI deployments are required but not evidenced in academic resume",
+  "id": "Collate_AI_Engineer_resume",
+  "matching_evidence": [
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "UMLS and FLAN-T5 medical semantic integration",
+    "SCoPe prototypical/KL learning and clinical prediction"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Collate_AI_Engineer_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

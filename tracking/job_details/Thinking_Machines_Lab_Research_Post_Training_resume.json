@@ -1,0 +1,28 @@
+{
+  "company": "Thinking Machines Lab",
+  "role": "Research, Post-Training",
+  "priority": "Stretch",
+  "location": "San Francisco CA (on-site)",
+  "salary": "$350K-$475K research range",
+  "url": "https://jobs.ashbyhq.com/thinkingmachines/3efb6896-4840-4f90-8798-2ce49fa146e5",
+  "requirements": "Advanced RLHF/RLAIF and distributed post-training, PyTorch; PhD preferred",
+  "focus": [
+    "vlm",
+    "scope",
+    "rag"
+  ],
+  "gap": "No production RLHF at frontier scale or distributed training ownership",
+  "id": "Thinking_Machines_Lab_Research_Post_Training_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "SCoPe prototypical/KL learning and clinical prediction",
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC"
+  ],
+  "work_authorization_review": "Employer advertises visa sponsorship, eligibility individual; OPT EAD not yet issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Thinking_Machines_Lab_Research_Post_Training_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

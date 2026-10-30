@@ -1,0 +1,28 @@
+{
+  "company": "Lightfield",
+  "role": "AI Product Engineer, New Grad",
+  "priority": "Medium",
+  "location": "San Francisco CA (on-site)",
+  "salary": "$160K-$180K",
+  "url": "https://jobs.ashbyhq.com/Lightfield/bb758825-5422-46c4-86c3-0be1cc89148f/",
+  "requirements": "New-grad software fundamentals, LLM integration, full-stack TS/React/Node product",
+  "focus": [
+    "rag",
+    "umls",
+    "scope"
+  ],
+  "gap": "No demonstrated React/GraphQL or production SaaS shipping",
+  "id": "Lightfield_AI_Product_Engineer_New_Grad_resume",
+  "matching_evidence": [
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "UMLS and FLAN-T5 medical semantic integration",
+    "SCoPe prototypical/KL learning and clinical prediction"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Lightfield_AI_Product_Engineer_New_Grad_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}
