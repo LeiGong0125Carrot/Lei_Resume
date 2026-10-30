@@ -19,7 +19,7 @@
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
-    pdftitle={Lei Gong - Tailored Resume},
+    pdftitle={Lei Gong's CV},
     pdfauthor={Lei Gong},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
@@ -66,17 +66,17 @@
     -1pt
 }{
     % top space:
-    0.16 cm
+    0.3 cm
 }{
     % bottom space:
-    0.08 cm
+    0.2 cm
 } % section title spacing
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.03 cm,
-        parsep=0.03 cm,
+        topsep=0.10 cm,
+        parsep=0.10 cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=0 cm + 10pt
@@ -156,7 +156,6 @@
 % \immediate\write18{curl -L -o medrag-stars.png "https://img.shields.io/github/stars/Teddy-XiongGZ/MedRAG?style=social"}
 
 
-
 \begin{document}
 \newcommand{\AND}{\unskip\cleaders\copy\ANDbox\hskip\wd\ANDbox\ignorespaces}
 \newsavebox\ANDbox
@@ -172,9 +171,10 @@ Charlottesville, VA \kern 4pt \AND \kern 4pt
 \hrefWithoutArrow{https://scholar.google.com/citations?user=8QLAkKMAAAAJ}{Scholar}
 \end{header}
 \vspace{0.01 cm}
+
 \section{SUMMARY}
 \begin{onecolentry}
-Applied ML researcher working on reliable clinical language models, interpretable patient-level prediction, and knowledge-enhanced NLP for regulated-domain data.
+December 2026 M.S. Computer Science graduate with Python machine-learning research experience in healthcare data integration, knowledge-enhanced text analysis, and end-to-end experimental evaluation.
 \end{onecolentry}
 \section{EDUCATION}
 \begin{onecolentry}
@@ -188,49 +188,50 @@ B.S. Computer Science; Second Major in Applied Statistics \hfill May 2023
 \end{onecolentry}
 \section{TECHNICAL SKILLS}
 \begin{onecolentry}
-\textbf{ML / Programming:} Python, PyTorch, Transformers, clinical NLP, RAG, UMLS semantics, knowledge graphs
+\textbf{Programming / Data:} Python, SQL, Java, C, R; data preprocessing, model evaluation, feature engineering \\
+\textbf{ML / NLP:} PyTorch, Transformers, retrieval-augmented learning, clinical NLP, knowledge graphs, UMLS, Neo4j
 \end{onecolentry}
 \section{RESEARCH EXPERIENCE}
 \begin{onecolentry}
 \textbf{Graduate Research Assistant, University of Virginia} \hfill Jan 2024 -- Present
 \begin{highlights}
-\item Conducted academic research on clinical language modeling and multimodal learning with empirical comparison of methods and data sources.
-\item Built and evaluated research models in Python/PyTorch; analyzed benchmark performance and collaborated with coauthors on technical publications.
+\item Developed research methods combining structured clinical features, unstructured EHR notes, and biomedical knowledge to improve clinically relevant predictions.
+\item Collaborated with cross-disciplinary research coauthors to design experiments, validate results on MIMIC benchmarks, and communicate technical findings through peer-reviewed papers.
 \end{highlights}
 \end{onecolentry}
 \section{SELECTED RESEARCH PROJECTS}
 \begin{twocolentry}{IEEE Big Data 2024}
-\textbf{Retrieval-Augmented NLP for Clinical SDoH}
+\textbf{Retrieval-Augmented SDoH Extraction}
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Developed a retrieval-augmented clinical NLP framework integrating biomedical literature and EHR notes through cross-source attention and gated fusion.
-\item Compared six baselines on MIMIC-IV SDoH data, improving macro-F1 by 2.91 percentage points and macro-AUC by 2.49 points versus Hierarchical RoBERTa.
+\item Built a retrieval-enhanced clinical NLP approach integrating biomedical literature and EHR notes through cross-source attention and gated fusion.
+\item Evaluated against six baselines on MIMIC-IV, improving SDoH macro-F1 by 2.91 percentage points and macro-AUC by 2.49 points.
 \end{highlights}
 \end{onecolentry}
-\vspace{0.03 cm}
-\begin{twocolentry}{AMIA 2024}
-\textbf{Biomedical Knowledge-Augmented Language Model}
+\vspace{0.02 cm}
+\begin{twocolentry}{ICDM 2025}
+\textbf{Context-Aware Clinical Feature Imputation}
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Integrated UMLS semantic types with clinical narratives for LLM-based social determinants of health extraction using FLAN-T5.
-\item Evaluated model sizes on MIMIC-III SDoH data, improving macro-F1 from 0.8423 to 0.8824.
+\item Developed structure-guided multi-head attention and disentangled representations for incomplete EHR features in clinical outcome prediction.
+\item Compared clinical predictors on MIMIC-III, improving macro-F1 for ventilation and mortality outcomes versus tested baselines.
 \end{highlights}
 \end{onecolentry}
-\vspace{0.03 cm}
+\vspace{0.02 cm}
 \begin{twocolentry}{2026 research}
-\textbf{SCoPe: Interpretable Clinical Prediction}
+\textbf{SCoPe: Semantic Context-Adaptive Prototypical Learning}
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Developed context-adaptive semantic unit aggregation, class-conditional prototypical learning and KL regularization for interpretable clinical outcome modeling.
-\item Improved MIMIC-IV mortality prediction F1 from 0.268 to 0.308 against Clinical-ModernBERT.
+\item Developed context-adaptive semantic unit aggregation, class-conditional prototypes, and KL regularization for interpretable clinical note classification.
+\item Improved MIMIC-IV mortality prediction F1 from 0.268 to 0.308 versus Clinical-ModernBERT.
 \end{highlights}
 \end{onecolentry}
-\vspace{0.03 cm}
+\vspace{0.02 cm}
 \section{SELECTED PUBLICATIONS}
 \begin{onecolentry}
-First author, clinical outcome prediction (ICDM 2025); first author, retrieval-augmented SDoH (IEEE Big Data 2024); coauthor, \textit{Reward Is Enough} (ICLR 2026).
+First author, clinical outcome prediction (ICDM 2025); first author, knowledge-augmented SDoH extraction (AMIA 2024); coauthor, \textit{Reward Is Enough} (ICLR 2026).
 \end{onecolentry}
 \end{document}

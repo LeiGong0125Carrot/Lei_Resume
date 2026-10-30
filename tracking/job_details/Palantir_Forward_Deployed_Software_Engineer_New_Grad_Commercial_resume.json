@@ -1,0 +1,28 @@
+{
+  "company": "Palantir",
+  "role": "Forward Deployed Software Engineer, New Grad - Commercial",
+  "priority": "High",
+  "location": "New York, NY (hybrid)",
+  "salary": "$135,000-$145,000 base",
+  "url": "https://jobs.lever.co/palantir/2e6b0ac8-83e9-4be5-a3aa-cf319f751728",
+  "requirements": "December 2026 or Spring 2027 engineering graduate; Python or other programming language; customer-facing data and AI workflows; 25-50% travel",
+  "focus": [
+    "rag",
+    "clinical",
+    "scope"
+  ],
+  "gap": "No demonstrated commercial end-to-end deployments, distributed cloud production stack or customer-site engineering; 25-50% travel requirement.",
+  "id": "Palantir_Forward_Deployed_Software_Engineer_New_Grad_Commercial_resume",
+  "matching_evidence": [
+    "December 2026 M.S. CS and Python/Javascript-free CS fundamentals",
+    "First-author clinical data and RAG experiments integrating incomplete/heterogeneous EHR sources",
+    "Built and evaluated clinical ML prediction, model experiments and published outcomes"
+  ],
+  "work_authorization_review": "Current F-1 student; OPT EAD not yet issued. Official posting asks about work authorization/sponsorship but gives no explicit policy. Confirm recruiter acceptance of F-1 OPT and any future sponsorship. Do not claim current work authorization.",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "overleaf_project_created": false,
+  "resume_tex_path": "resumes/Palantir_Forward_Deployed_Software_Engineer_New_Grad_Commercial_resume.tex"
+}

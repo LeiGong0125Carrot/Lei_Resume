@@ -1,0 +1,28 @@
+{
+  "company": "CLEAR",
+  "role": "Forward Deployed AI Engineer I",
+  "priority": "High",
+  "location": "New York, NY (5 days onsite)",
+  "salary": "$129,500-$150,500 base",
+  "url": "https://job-boards.greenhouse.io/clear/jobs/8259786",
+  "requirements": "0-2 years AI/ML/software engineering; hands-on LLMs, RAG, AI workflows and Python; model evaluations and privacy; some cloud/production integration experience",
+  "focus": [
+    "rag",
+    "umls",
+    "scope"
+  ],
+  "gap": "No proven commercial production AI agent, cloud/API deployment, observability and monitoring ownership; employer-specific F-1 OPT sponsorship must be confirmed.",
+  "id": "CLEAR_Forward_Deployed_AI_Engineer_I_resume",
+  "matching_evidence": [
+    "Graduate research on LLM/RAG and EHR data extraction in Python/PyTorch",
+    "UMLS knowledge-augmented FLAN-T5 and retrieval-enhanced SDoH pipelines",
+    "Research benchmark evaluation, interpretability and class-imbalanced clinical prediction"
+  ],
+  "work_authorization_review": "Current F-1 student; OPT EAD not yet issued. Official posting asks about work authorization/sponsorship but gives no explicit policy. Confirm recruiter acceptance of F-1 OPT and any future sponsorship. Do not claim current work authorization.",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "overleaf_project_created": false,
+  "resume_tex_path": "resumes/CLEAR_Forward_Deployed_AI_Engineer_I_resume.tex"
+}
