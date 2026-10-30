@@ -1,0 +1,28 @@
+{
+  "company": "Parallel",
+  "role": "Early Career Research Engineer",
+  "priority": "High",
+  "location": "Palo Alto, CA (on-site)",
+  "salary": "Not disclosed",
+  "url": "https://jobs.ashbyhq.com/parallel/056e41f8-7d5f-41c1-99fd-bf002dc072fd",
+  "requirements": "Research engineering for retrieval, semantic embeddings, and web-scale AI search; Python/ML or equivalent technical degree",
+  "focus": [
+    "rag",
+    "umls",
+    "scope"
+  ],
+  "gap": "No hyperscale web search index, embedding serving infrastructure or distributed retrieval deployment experience",
+  "id": "Parallel_Early_Career_Research_Engineer_resume",
+  "matching_evidence": [
+    "First-author retrieval-augmented NLP and feature fusion on MIMIC-IV",
+    "FLAN-T5/UMLS semantic modeling and evaluation",
+    "SCoPe prototypical representation learning"
+  ],
+  "work_authorization_review": "Employer explicitly lists visa sponsorships; individual F-1 OPT eligibility must still be confirmed; OPT EAD not issued",
+  "candidate_authorization": "Current F-1 student; no OPT EAD; AOS in preparation",
+  "source": "live official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Parallel_Early_Career_Research_Engineer_resume.tex",
+  "overleaf_project_created": false
+}

@@ -1,0 +1,28 @@
+{
+  "company": "Andromeda Surgical",
+  "role": "Machine Learning Engineer",
+  "priority": "High",
+  "location": "South San Francisco, CA (on-site)",
+  "salary": "Not disclosed",
+  "url": "https://jobs.ashbyhq.com/andromedasurgical/d1bbc50a-cf81-43f5-8ded-7a82163113a1",
+  "requirements": "Graduate-level hands-on training of original ML models, PyTorch, independent model design, testable software, clinical robotic-system collaboration",
+  "focus": [
+    "scope",
+    "icdm",
+    "opd"
+  ],
+  "gap": "No surgical robotics/ROS implementation, production C++ model inference or robotic hardware deployments",
+  "id": "Andromeda_Surgical_Machine_Learning_Engineer_resume",
+  "matching_evidence": [
+    "Developed and trained independent SCoPe architecture with prototypes/KL",
+    "First-author ICDM 2025 feature imputation",
+    "Contributed to Qwen VLM post-training benchmarks"
+  ],
+  "work_authorization_review": "Official company listing states visa sponsorship available for eligible candidates; OPT EAD not issued and acceptance requires employer confirmation",
+  "candidate_authorization": "Current F-1 student; no OPT EAD; AOS in preparation",
+  "source": "live official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Andromeda_Surgical_Machine_Learning_Engineer_resume.tex",
+  "overleaf_project_created": false
+}

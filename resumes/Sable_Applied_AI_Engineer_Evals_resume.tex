@@ -3,10 +3,10 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=1.6 cm, % seperation between body and page edge from the top
-    bottom=1.6 cm, % seperation between body and page edge from the bottom
-    left=1.75 cm, % seperation between body and page edge from the left
-    right=1.75 cm, % seperation between body and page edge from the right
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=1.65 cm, % seperation between body and page edge from the bottom
+    left=1.65 cm, % seperation between body and page edge from the left
+    right=1.65 cm, % seperation between body and page edge from the right
     footskip=1.0 cm, % seperation between body and footer
     % showframe % for debugging 
 ]{geometry} % for adjusting page geometry
@@ -19,7 +19,7 @@
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
 \usepackage[
-    pdftitle={Lei Gong - Tailored Resume},
+    pdftitle={Lei Gong's CV},
     pdfauthor={Lei Gong},
     pdfcreator={LaTeX with RenderCV},
     colorlinks=true,
@@ -75,8 +75,8 @@
 \renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$} % custom bullet points
 \newenvironment{highlights}{
     \begin{itemize}[
-        topsep=0.03 cm,
-        parsep=0.03 cm,
+        topsep=0.10 cm,
+        parsep=0.10 cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=0 cm + 10pt
@@ -156,15 +156,13 @@
 % \immediate\write18{curl -L -o medrag-stars.png "https://img.shields.io/github/stars/Teddy-XiongGZ/MedRAG?style=social"}
 
 
-
 \begin{document}
 \newcommand{\AND}{\unskip\cleaders\copy\ANDbox\hskip\wd\ANDbox\ignorespaces}
 \newsavebox\ANDbox
 \sbox\ANDbox{$|$}
 \begin{header}
 \fontsize{22 pt}{24 pt}\selectfont Lei Gong\par
-\vspace{2 pt}
-\normalsize
+\vspace{2 pt}\normalsize
 Charlottesville, VA \kern 4pt \AND \kern 4pt
 \hrefWithoutArrow{mailto:nkw3mr@virginia.edu}{nkw3mr@virginia.edu} \kern 4pt \AND \kern 4pt
 \hrefWithoutArrow{tel:+17657719032}{(+1) 765-771-9032} \kern 4pt \AND \kern 4pt
@@ -172,9 +170,10 @@ Charlottesville, VA \kern 4pt \AND \kern 4pt
 \hrefWithoutArrow{https://scholar.google.com/citations?user=8QLAkKMAAAAJ}{Scholar}
 \end{header}
 \vspace{0.01 cm}
+
 \section{SUMMARY}
 \begin{onecolentry}
-December 2026 CS master's graduate candidate focused on extracting structured information from text, context-aware language modeling, and reliable ML evaluation.
+Applied machine learning evaluator with multimodal visual-model benchmark research, clinical outcome metrics, Python/PyTorch experiments, and an Applied Statistics degree.
 \end{onecolentry}
 \section{EDUCATION}
 \begin{onecolentry}
@@ -188,49 +187,49 @@ B.S. Computer Science; Second Major in Applied Statistics \hfill May 2023
 \end{onecolentry}
 \section{TECHNICAL SKILLS}
 \begin{onecolentry}
-\textbf{ML / Programming:} Python, PyTorch, Transformers, text extraction, context-aware retrieval, UMLS, SQL
+Python, PyTorch, Transformers, multimodal visual-model evaluation, classification metrics, experimental design, R, SQL, clinical NLP
 \end{onecolentry}
 \section{RESEARCH EXPERIENCE}
 \begin{onecolentry}
 \textbf{Graduate Research Assistant, University of Virginia} \hfill Jan 2024 -- Present
 \begin{highlights}
-\item Conducted academic research on clinical language modeling and multimodal learning with empirical comparison of methods and data sources.
-\item Built and evaluated research models in Python/PyTorch; analyzed benchmark performance and collaborated with coauthors on technical publications.
+\item Evaluated model behavior across benchmark settings in multimodal visual reasoning and class-imbalanced EHR outcome prediction.
+\item Collaborated with research coauthors on systematic comparisons, metrics analysis and interpretation of model strengths and failure modes.
 \end{highlights}
 \end{onecolentry}
-\section{SELECTED RESEARCH PROJECTS}
-\begin{twocolentry}{IEEE Big Data 2024}
-\textbf{Retrieval-Augmented NLP for Clinical SDoH}
+\section{SELECTED PROJECTS}
+\begin{twocolentry}{arXiv 2026 (coauthor)}
+\textbf{OPD-Aha: Multimodal On-Policy Distillation}
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Developed a retrieval-augmented clinical NLP framework integrating biomedical literature and EHR notes through cross-source attention and gated fusion.
-\item Compared six baselines on MIMIC-IV SDoH data, improving macro-F1 by 2.91 percentage points and macro-AUC by 2.49 points versus Hierarchical RoBERTa.
-\end{highlights}
-\end{onecolentry}
-\vspace{0.03 cm}
-\begin{twocolentry}{AMIA 2024}
-\textbf{Biomedical Knowledge-Augmented Language Model}
-\end{twocolentry}
-\begin{onecolentry}
-\begin{highlights}
-\item Integrated UMLS semantic types with clinical narratives for LLM-based social determinants of health extraction using FLAN-T5.
-\item Evaluated model sizes on MIMIC-III SDoH data, improving macro-F1 from 0.8423 to 0.8824.
+\item Collaborated on Qwen3.5-4B/9B visual post-training and visual preference-based reconstruction for multimodal reasoning.
+\item Contributed to experiments and benchmark evaluation; the coauthored study reported +4.0/+3.2 pp mean gains over Vision-OPD.
 \end{highlights}
 \end{onecolentry}
 \vspace{0.03 cm}
 \begin{twocolentry}{2026 research}
-\textbf{SCoPe: Interpretable Clinical Prediction}
+\textbf{SCoPe: Interpretable Clinical Outcome Prediction}
 \end{twocolentry}
 \begin{onecolentry}
 \begin{highlights}
-\item Developed context-adaptive semantic unit aggregation, class-conditional prototypical learning and KL regularization for interpretable clinical outcome modeling.
-\item Improved MIMIC-IV mortality prediction F1 from 0.268 to 0.308 against Clinical-ModernBERT.
+\item Developed semantic unit aggregation, class-conditional prototypical representations and KL regularization for clinical notes.
+\item Improved MIMIC-IV mortality prediction F1 from 0.268 to 0.308 compared with Clinical-ModernBERT.
+\end{highlights}
+\end{onecolentry}
+\vspace{0.03 cm}
+\begin{twocolentry}{IEEE Big Data 2024}
+\textbf{Retrieval-Augmented Clinical Text Extraction}
+\end{twocolentry}
+\begin{onecolentry}
+\begin{highlights}
+\item Developed a retrieval-enhanced clinical NLP model joining biomedical literature and EHR text with cross-source attention and gated fusion.
+\item Evaluated six baselines on MIMIC-IV; improved SDoH macro-F1 by 2.91 percentage points and macro-AUC by 2.49 points.
 \end{highlights}
 \end{onecolentry}
 \vspace{0.03 cm}
 \section{SELECTED PUBLICATIONS}
 \begin{onecolentry}
-First author, clinical outcome prediction (ICDM 2025); first author, retrieval-augmented SDoH (IEEE Big Data 2024); coauthor, \textit{Reward Is Enough} (ICLR 2026).
+Coauthor: \textit{OPD-Aha} (arXiv preprint, 2026), \textit{Reward Is Enough} (ICLR 2026); first author: ICDM 2025.
 \end{onecolentry}
 \end{document}

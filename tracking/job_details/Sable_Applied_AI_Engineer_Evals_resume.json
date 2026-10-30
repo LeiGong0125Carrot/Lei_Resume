@@ -1,0 +1,28 @@
+{
+  "company": "Sable",
+  "role": "Applied AI Engineer, Evals",
+  "priority": "High",
+  "location": "San Francisco, CA (on-site)",
+  "salary": "Not disclosed",
+  "url": "https://jobs.ashbyhq.com/sable/36addef7-4840-4a5e-bbcb-69502776801c",
+  "requirements": "Statistics and applied ML; evaluation of voice/vision/browser AI agents, experimental design and debugging in a production codebase",
+  "focus": [
+    "opd",
+    "scope",
+    "rag"
+  ],
+  "gap": "No shipped voice/browser agent evaluation harness or production observability ownership demonstrated",
+  "id": "Sable_Applied_AI_Engineer_Evals_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha six-benchmark VLM evaluation",
+    "Built SCoPe interpretable clinical model and validated F1 gains",
+    "Purdue B.S. second major in Applied Statistics"
+  ],
+  "work_authorization_review": "Company listing does not specify F-1 OPT acceptance or sponsorship; verify with recruiter before applying, EAD not issued",
+  "candidate_authorization": "Current F-1 student; no OPT EAD; AOS in preparation",
+  "source": "live official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Sable_Applied_AI_Engineer_Evals_resume.tex",
+  "overleaf_project_created": false
+}
