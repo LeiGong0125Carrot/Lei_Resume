@@ -1,0 +1,28 @@
+{
+  "company": "Institute of Foundation Models",
+  "role": "Research Scientist - NLP",
+  "priority": "High",
+  "location": "Sunnyvale CA (on-site)",
+  "salary": "$150K-$450K wide range",
+  "url": "https://jobs.lever.co/ifm-us/6a4c7a41-983f-4c06-b785-c2deb5cd3f5d",
+  "requirements": "Minimum MS in CS; NLP/LLM and multimodal research, Python and PyTorch; PhD preferred",
+  "focus": [
+    "umls",
+    "scope",
+    "vlm"
+  ],
+  "gap": "No large-scale pretraining leadership or advanced inference optimization",
+  "id": "Institute_of_Foundation_Models_Research_Scientist_NLP_resume",
+  "matching_evidence": [
+    "UMLS and FLAN-T5 medical semantic integration",
+    "SCoPe prototypical/KL learning and clinical prediction",
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Institute_of_Foundation_Models_Research_Scientist_NLP_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

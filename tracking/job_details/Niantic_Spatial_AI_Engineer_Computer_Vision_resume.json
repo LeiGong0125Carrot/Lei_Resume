@@ -1,0 +1,28 @@
+{
+  "company": "Niantic Spatial",
+  "role": "AI Engineer, Computer Vision",
+  "priority": "High",
+  "location": "San Francisco, CA (hybrid)",
+  "salary": "$165,600-$221,000 base",
+  "url": "https://jobs.ashbyhq.com/niantic-spatial/aa5cac58-e677-4238-9d90-f05f3da9cd4f",
+  "requirements": "MS or BS related field; early research experience training PyTorch vision models, image matching, visual retrieval, localization and model evaluation",
+  "focus": [
+    "opd",
+    "scope",
+    "icdm"
+  ],
+  "gap": "No verified visual localization, geometry-based pose estimation, image matching or production edge vision inference",
+  "id": "Niantic_Spatial_AI_Engineer_Computer_Vision_resume",
+  "matching_evidence": [
+    "Qwen visual reasoning post-training benchmarks (coauthored OPD-Aha)",
+    "Class-conditional prototype and KL representation research (SCoPe)",
+    "First-author attention and feature learning in clinical ML"
+  ],
+  "work_authorization_review": "Official listing does not specify F-1 OPT acceptance or visa sponsorship; recruiter eligibility confirmation required; EAD not issued",
+  "candidate_authorization": "Current F-1 student; no OPT EAD; AOS in preparation",
+  "source": "live official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Niantic_Spatial_AI_Engineer_Computer_Vision_resume.tex",
+  "overleaf_project_created": false
+}

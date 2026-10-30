@@ -1,0 +1,28 @@
+{
+  "company": "Fireworks AI",
+  "role": "Member of Technical Staff, New Grad (BS/MS)",
+  "priority": "High",
+  "location": "San Mateo CA or NYC (hybrid)",
+  "salary": "$160K-$180K",
+  "url": "https://jobs.ashbyhq.com/fireworks/0c78aede-7c21-4d1e-88f1-f309deb9819e",
+  "requirements": "December 2026 CS grads prioritized; Python and research software; model training/evaluation",
+  "focus": [
+    "vlm",
+    "rag",
+    "scope"
+  ],
+  "gap": "No production inference platform, CUDA kernels or distributed systems engineering",
+  "id": "Fireworks_AI_Member_of_Technical_Staff_New_Grad_BS_MS_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "SCoPe prototypical/KL learning and clinical prediction"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Fireworks_AI_Member_of_Technical_Staff_New_Grad_BS_MS_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

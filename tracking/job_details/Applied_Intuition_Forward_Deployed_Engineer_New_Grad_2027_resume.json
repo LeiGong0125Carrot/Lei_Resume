@@ -1,0 +1,28 @@
+{
+  "company": "Applied Intuition",
+  "role": "Forward Deployed Engineer - New Grad (2027)",
+  "priority": "Medium",
+  "location": "Sunnyvale CA (on-site)",
+  "salary": "$130K-$158K",
+  "url": "https://jobs.ashbyhq.com/applied/31140958-d768-452c-8498-0b1c7f403943",
+  "requirements": "New grad software and autonomy customer technical delivery",
+  "focus": [
+    "vlm",
+    "scope",
+    "impute"
+  ],
+  "gap": "No vehicle customer deployments; verify potential team-specific citizenship restrictions",
+  "id": "Applied_Intuition_Forward_Deployed_Engineer_New_Grad_2027_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "SCoPe prototypical/KL learning and clinical prediction",
+    "ICDM 2025 attention-driven EHR imputation"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Applied_Intuition_Forward_Deployed_Engineer_New_Grad_2027_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

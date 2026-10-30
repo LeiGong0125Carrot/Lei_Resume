@@ -1,0 +1,28 @@
+{
+  "company": "Cogent Security",
+  "role": "Forward Deployed Agent Engineer, Early Career",
+  "priority": "High",
+  "location": "New York NY (hybrid)",
+  "salary": "NY unspecified",
+  "url": "https://jobs.ashbyhq.com/cogent-security/0ee6520e-8da8-4498-9580-57e9ff255d21",
+  "requirements": "Dec 2026/2027 graduate; Python and AI-agent implementation; customer deployments",
+  "focus": [
+    "vlm",
+    "rag",
+    "scope"
+  ],
+  "gap": "No enterprise security integration or customer production delivery",
+  "id": "Cogent_Security_Forward_Deployed_Agent_Engineer_Early_Career_resume",
+  "matching_evidence": [
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks",
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "SCoPe prototypical/KL learning and clinical prediction"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Cogent_Security_Forward_Deployed_Agent_Engineer_Early_Career_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}

@@ -1,0 +1,28 @@
+{
+  "company": "Composio",
+  "role": "Fullstack Engineer, Product Team (New Grad)",
+  "priority": "Medium",
+  "location": "San Francisco CA (on-site)",
+  "salary": "Not disclosed",
+  "url": "https://jobs.ashbyhq.com/composio/01e0e7ad-44a2-44e8-9340-64ca70eff491",
+  "requirements": "New-grad AI-native LLM tools, full-stack code, product features, technical writing",
+  "focus": [
+    "rag",
+    "umls",
+    "vlm"
+  ],
+  "gap": "No proven TypeScript/React front end or shipped full-stack AI product",
+  "id": "Composio_Fullstack_Engineer_Product_Team_New_Grad_resume",
+  "matching_evidence": [
+    "Developed retrieval-enhanced clinical NLP evaluated on MIMIC",
+    "UMLS and FLAN-T5 medical semantic integration",
+    "Coauthored OPD-Aha Qwen3.5 VLM post-training and benchmarks"
+  ],
+  "work_authorization_review": "Employer-specific F-1 OPT acceptance and sponsorship must be verified; current OPT EAD not issued.",
+  "source": "official employer JD",
+  "review_date": "2026-10-30",
+  "status": "Not applied",
+  "resume_tex_path": "resumes/Composio_Fullstack_Engineer_Product_Team_New_Grad_resume.tex",
+  "candidate_authorization": "F-1 student, OPT EAD not yet issued, AOS in preparation",
+  "overleaf_project_created": false
+}
