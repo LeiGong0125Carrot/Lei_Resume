@@ -1,0 +1,34 @@
+{
+  "company": "Firecrawl",
+  "role": "Research Engineer Benchmarks",
+  "location": "San Francisco, CA",
+  "employment": "Full-time",
+  "priority": "Stretch",
+  "official_apply_link": "https://jobs.ashbyhq.com/firecrawl/90f88e13-7d5f-43e2-a3fc-9e16d836b71c/",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$250,000-$290,000",
+  "required_qualifications": [
+    "4+ years ML/research engineering and shipped public benchmarks",
+    "Design scoring, data quality and repeatable evaluation harnesses",
+    "Publish research-grade data-provider benchmarks weekly"
+  ],
+  "matching_evidence": [
+    "Coauthored six-benchmark VLM evaluation",
+    "Academic model benchmarking and statistical comparisons",
+    "Research paper track record"
+  ],
+  "missing_evidence": [
+    "4+ years of shipped benchmarks not established; academic research since 2024",
+    "Production automated public benchmark service not documented"
+  ],
+  "work_authorization_review": "Official posting explicitly supports F-1 OPT/STEM OPT for qualifying applicants; start requires authorization.",
+  "resume_tex_path": "resumes/Firecrawl_Research_Engineer_Benchmarks_resume.tex",
+  "resume_modification_highlights": [
+    "Machine learning research contributor with published model evaluation work and rigorous quantitative benchmarks across multimodal reasoning and long-document predictive modeling.",
+    "OPD-Aha: Multimodal On-Policy Distillation",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Aware Feature Imputation and Disentanglement"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

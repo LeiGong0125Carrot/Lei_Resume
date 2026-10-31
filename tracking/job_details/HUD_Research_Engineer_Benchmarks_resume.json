@@ -1,0 +1,35 @@
+{
+  "company": "HUD",
+  "role": "Research Engineer Benchmarks",
+  "location": "San Francisco, CA / Remote North America",
+  "employment": "Full-time",
+  "priority": "High",
+  "official_apply_link": "https://jobs.ashbyhq.com/hud/c5252f0e-fd1d-41cf-b803-b0ce1fe4cea1/",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$135,000-$230,000 (major US cities)",
+  "required_qualifications": [
+    "Python and benchmark/evaluation knowledge",
+    "Build realistic agent tasks and evaluation metrics",
+    "Analyze validity, repeatability and failure cases",
+    "Technical written reporting"
+  ],
+  "matching_evidence": [
+    "Coauthored six-benchmark VLM evaluation",
+    "Quantitative comparative experiments across MIMIC and visual tasks",
+    "Peer-reviewed publication and reproducible model analysis"
+  ],
+  "missing_evidence": [
+    "No proven agent environment or automated scoring infrastructure in production",
+    "Docker and infrastructure experience not documented by original master"
+  ],
+  "work_authorization_review": "Posting states visa/relocation support for strong candidates; OPT timing still requires verification.",
+  "resume_tex_path": "resumes/HUD_Research_Engineer_Benchmarks_resume.tex",
+  "resume_modification_highlights": [
+    "Researcher specializing in model evaluation, multimodal reasoning experiments and robust representation learning. Published research in machine learning with quantitative benchmark comparisons.",
+    "OPD-Aha: Multimodal On-Policy Distillation",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Aware Feature Imputation and Disentanglement"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

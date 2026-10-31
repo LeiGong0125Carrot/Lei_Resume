@@ -1,0 +1,35 @@
+{
+  "company": "Extend",
+  "role": "Machine Learning Researcher",
+  "location": "New York, NY",
+  "employment": "Full-time",
+  "priority": "High",
+  "official_apply_link": "https://jobs.ashbyhq.com/extend/f66b7066-93dc-4b46-ad0f-3ea842e70fe8",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "Not stated",
+  "required_qualifications": [
+    "Build document processing ML solutions and model-training experiments",
+    "Apply state-of-the-art language and vision approaches",
+    "Collaborate on production document-model reliability"
+  ],
+  "matching_evidence": [
+    "Clinical notes are long unstructured documents; developed segmentation and prototypical learning",
+    "Retrieval-augmented knowledge fusion research",
+    "Multimodal post-training and empirical evaluation"
+  ],
+  "missing_evidence": [
+    "No evidenced production document OCR or customer-facing deployment",
+    "No documented visual document understanding specialization",
+    "OPT/sponsorship not specified"
+  ],
+  "work_authorization_review": "Unspecified; confirm employer support for F-1 OPT.",
+  "resume_tex_path": "resumes/Extend_Machine_Learning_Researcher_resume.tex",
+  "resume_modification_highlights": [
+    "Applied ML researcher developing representations for long, heterogeneous documents, biomedical knowledge retrieval and Transformer-based classification. Coauthored multimodal model post-training research.",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Specific Feature Augmentation for SDoH Extraction",
+    "OPD-Aha: Multimodal On-Policy Distillation"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

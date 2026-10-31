@@ -1,0 +1,35 @@
+{
+  "company": "HUD",
+  "role": "Research Engineer QC Automation",
+  "location": "San Francisco, CA / Remote North America",
+  "employment": "Full-time",
+  "priority": "High",
+  "official_apply_link": "https://jobs.ashbyhq.com/hud/e6f9812e-dcfd-422b-b614-1d1273c16003/",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$135,000-$230,000 (major US cities)",
+  "required_qualifications": [
+    "Automated QA/QC systems for AI data",
+    "Data-quality metrics and edge-case analysis",
+    "Knowledge of evaluations and benchmarks",
+    "Python and data engineering workflows"
+  ],
+  "matching_evidence": [
+    "ICDM work handles missing clinical features explicitly",
+    "SCoPe evaluated severe class imbalance and interpretable representations",
+    "OPD-Aha benchmark validation"
+  ],
+  "missing_evidence": [
+    "No demonstrated production data-vendor QC portal",
+    "Agent-specific trajectory grading and Docker not substantiated by master"
+  ],
+  "work_authorization_review": "Visa support stated; confirm OPT start timing.",
+  "resume_tex_path": "resumes/HUD_Research_Engineer_QC_Automation_resume.tex",
+  "resume_modification_highlights": [
+    "Researcher focused on reliable model evaluation and learning from incomplete or imbalanced data; experience with class-conditional representations and robust empirical analysis.",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Aware Feature Imputation and Disentanglement",
+    "OPD-Aha: Multimodal On-Policy Distillation"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

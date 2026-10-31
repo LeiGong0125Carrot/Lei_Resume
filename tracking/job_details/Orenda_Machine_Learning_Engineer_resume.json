@@ -1,0 +1,34 @@
+{
+  "company": "Orenda",
+  "role": "Machine Learning Engineer",
+  "location": "Brooklyn, NY",
+  "employment": "Full-time",
+  "priority": "Medium",
+  "official_apply_link": "https://job-boards.greenhouse.io/orenda/jobs/8031471003",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$100,000-$175,000",
+  "required_qualifications": [
+    "BS and 3+ years relevant ML experience",
+    "2+ years Python ML coding",
+    "Time-series forecasting, experiments and cloud computing"
+  ],
+  "matching_evidence": [
+    "UVA RA since Jan 2024, strong statistics foundation",
+    "Multiple clinical outcome prediction and feature imputation projects",
+    "Quantitative experimental comparison and model validation"
+  ],
+  "missing_evidence": [
+    "No documented energy-market/time-series forecasting project",
+    "Cloud deployment experience not demonstrated; 3+ year requirement borderline"
+  ],
+  "work_authorization_review": "No explicit OPT/sponsorship details; ask recruiter.",
+  "resume_tex_path": "resumes/Orenda_Machine_Learning_Engineer_resume.tex",
+  "resume_modification_highlights": [
+    "Applied ML researcher with Python/PyTorch predictive modeling, mathematical statistics, representation learning and empirical evaluation experience, interested in forecasting and data-driven optimization.",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Aware Feature Imputation and Disentanglement",
+    "Context-Specific Feature Augmentation for SDoH Extraction"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

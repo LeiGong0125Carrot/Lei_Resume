@@ -1,0 +1,34 @@
+{
+  "company": "Numerator",
+  "role": "Data Scientist",
+  "location": "Chicago, IL",
+  "employment": "Full-time",
+  "priority": "Medium",
+  "official_apply_link": "https://recruit.hirebridge.com/v3/Jobs/JobDetails.aspx?bid=8&cid=7844&jid=612006&locvalue=1026",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$106,000-$146,000 (LinkedIn/market listing; employer page no range)",
+  "required_qualifications": [
+    "Statistics/CS quantitative degree and 2-5 years industry data science",
+    "Python, SQL and applied statistical modeling",
+    "Sampling, imputation, metrics, anomaly detection and production analytics"
+  ],
+  "matching_evidence": [
+    "Purdue Applied Statistics second major",
+    "ICDM 2025 research on imputation of incomplete structured EHR features",
+    "Model evaluation and predictive analytics of complex datasets"
+  ],
+  "missing_evidence": [
+    "Industry 2-5 years required; academic RA may not fully count",
+    "No evidence of consumer panels/survey weighting or deployed production ETL"
+  ],
+  "work_authorization_review": "Sponsorship not stated; ask employer about F-1 OPT prior to submission.",
+  "resume_tex_path": "resumes/Numerator_Data_Scientist_resume.tex",
+  "resume_modification_highlights": [
+    "Applied machine learning researcher with a second major in Applied Statistics, experience in predictive modeling, missing-data imputation, clinical NLP and experimental evaluation.",
+    "Context-Aware Feature Imputation and Disentanglement",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Specific Feature Augmentation for SDoH Extraction"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

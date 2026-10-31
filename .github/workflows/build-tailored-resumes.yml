@@ -39,6 +39,23 @@ jobs:
           cat compiled_pdfs.txt
           test "$source_count" -eq "$pdf_count"
           test -f main.pdf
+      - name: Report resume PDF page counts
+        if: always()
+        run: |
+          if ! command -v pdfinfo >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq poppler-utils
+          fi
+          echo "File,Pages" > pdf_page_counts.csv
+          for f in resumes/*_resume.pdf; do
+            test -f "$f" || continue
+            pages=$(pdfinfo "$f" 2>/dev/null | awk '/^Pages:/ {print $2}')
+            echo "$f,$pages" >> pdf_page_counts.csv
+            if [ "$pages" != "1" ]; then
+              echo "::warning file=$f::Resume contains $pages pages; review layout"
+            fi
+          done
+          cat pdf_page_counts.csv
       - name: Upload PDFs for review
         uses: actions/upload-artifact@v4
         with:
@@ -46,4 +63,5 @@ jobs:
           path: |
             resumes/*_resume.pdf
             compiled_pdfs.txt
+            pdf_page_counts.csv
           if-no-files-found: error
