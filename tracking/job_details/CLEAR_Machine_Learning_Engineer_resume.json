@@ -1,0 +1,34 @@
+{
+  "company": "CLEAR",
+  "role": "Machine Learning Engineer",
+  "location": "New York, NY",
+  "employment": "Full-time",
+  "priority": "Medium",
+  "official_apply_link": "https://job-boards.greenhouse.io/clear/jobs/8070543",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$115,000 minimum (upper bound typo in posting)",
+  "required_qualifications": [
+    "1-2 years building, operating and scaling consumer ML models",
+    "Model development, deployment and cross-functional collaboration",
+    "Experiment design and performance monitoring"
+  ],
+  "matching_evidence": [
+    "More than two years academic ML research and Qwen VLM experiments",
+    "Clinical prediction work with reproducible benchmarking",
+    "Strong Python and statistics"
+  ],
+  "missing_evidence": [
+    "No demonstrated consumer-scale production model serving",
+    "Must confirm OPT/work authorization support; posted salary has apparent typographical error"
+  ],
+  "work_authorization_review": "Employer explicitly asks current authorization and future sponsorship; unknown support. No EAD yet.",
+  "resume_tex_path": "resumes/CLEAR_Machine_Learning_Engineer_resume.tex",
+  "resume_modification_highlights": [
+    "Machine learning researcher with Python/PyTorch modeling, multimodal model evaluation and robust prediction research; experienced with reproducible experimental analysis.",
+    "OPD-Aha: Multimodal On-Policy Distillation",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Aware Feature Imputation and Disentanglement"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

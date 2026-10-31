@@ -1,0 +1,35 @@
+{
+  "company": "Pangram Labs",
+  "role": "Machine Learning Engineer",
+  "location": "Brooklyn, New York",
+  "employment": "Full-time",
+  "priority": "Medium",
+  "official_apply_link": "https://jobs.ashbyhq.com/pangramlabs/588ffef1-fa5f-4e48-9b01-1b73b42cc52c",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$150,000-$400,000",
+  "required_qualifications": [
+    "BS/MS in CS; Python and ML frameworks",
+    "Strong Transformers/LLM fundamentals",
+    "Applied ML research and production training/inference pipelines"
+  ],
+  "matching_evidence": [
+    "M.S. CS with strong GPA and peer-reviewed ML research",
+    "Coauthored Qwen-based model post-training research",
+    "First-author work on retrieval-augmented and prototypical representation learning"
+  ],
+  "missing_evidence": [
+    "Broader-level role may favor production training and serving experience",
+    "No evidenced CUDA, Ray or production LLM inference",
+    "OPT employer acceptance unconfirmed"
+  ],
+  "work_authorization_review": "No explicit sponsorship/OPT statement; confirm before applying. Separate posting from Junior role, but prioritize the Junior posting.",
+  "resume_tex_path": "resumes/Pangram_Labs_Machine_Learning_Engineer_resume.tex",
+  "resume_modification_highlights": [
+    "Machine learning researcher focused on Transformer-based models, clinical text understanding, LLM post-training, and quantitative benchmark evaluation. Interested in robust text-model development from training to deployment.",
+    "OPD-Aha: Multimodal On-Policy Distillation",
+    "Context-Specific Feature Augmentation for SDoH Extraction",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

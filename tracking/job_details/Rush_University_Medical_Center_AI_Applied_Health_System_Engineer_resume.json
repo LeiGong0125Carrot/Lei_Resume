@@ -1,0 +1,35 @@
+{
+  "company": "Rush University Medical Center",
+  "role": "AI Applied Health System Engineer",
+  "location": "Chicago, IL",
+  "employment": "Full-time",
+  "priority": "High",
+  "official_apply_link": "https://rush.fxrecruiter.com/jobs/search?jobfunction%5B0%5D=2&jobfunction%5B1%5D=3&jobfunction%5B3%5D=34&jobfunction%5B4%5D=10&jobfunction%5B5%5D=39&location%5B0%5D=2&location%5B1%5D=1&location%5B2%5D=356&location%5B3%5D=7&location%5B4%5D=46&location%5B7%5D=407&location%5B8%5D=517&location%5B9%5D=3&page=17",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$41.88-$62.40 per hour",
+  "required_qualifications": [
+    "BS in computing; 3-5 years ML/software experience",
+    "Python ML, LLM and RAG pipelines",
+    "Clinical notes/EHR data integration",
+    "Testing and monitoring healthcare AI systems"
+  ],
+  "matching_evidence": [
+    "UVA RA developing EHR outcome prediction from clinical notes since 2024",
+    "ICDM 2025 clinical feature imputation and SCoPe outcomes",
+    "Big Data 2024 RAG-enhanced SDoH extraction"
+  ],
+  "missing_evidence": [
+    "RA about 2 years 10 months is slightly below 3-year minimum",
+    "No proven hospital IT/enterprise deployment, HIPAA production integration or MLOps"
+  ],
+  "work_authorization_review": "Official listing does not confirm employer acceptance of F-1 OPT; inquire before applying.",
+  "resume_tex_path": "resumes/Rush_University_Medical_Center_AI_Applied_Health_System_Engineer_resume.tex",
+  "resume_modification_highlights": [
+    "Clinical AI researcher developing predictive models and knowledge-augmented NLP for EHR notes and patient outcomes, with peer-reviewed publications in healthcare machine learning.",
+    "Context-Aware Feature Imputation and Disentanglement",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Specific Feature Augmentation for SDoH Extraction"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}

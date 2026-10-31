@@ -1,0 +1,35 @@
+{
+  "company": "Kensho",
+  "role": "Machine Learning Operations Engineer I",
+  "location": "New York, NY / Remote US",
+  "employment": "Full-time",
+  "priority": "Medium",
+  "official_apply_link": "https://careers.spglobal.com/jobs/330647",
+  "official_job_status": "Confirmed accessible official employer posting on 2026-10-31",
+  "salary": "$120,000-$140,000",
+  "required_qualifications": [
+    "1+ year ML engineering or ML infrastructure related experience",
+    "Python and LLM/agent fundamentals",
+    "Kubernetes, AWS cloud and distributed debugging",
+    "Evaluation/finetuning tooling"
+  ],
+  "matching_evidence": [
+    "2+ years academic RA working with Python and PyTorch",
+    "Coauthored post-training and evaluation research",
+    "Academic workflows and benchmark-driven analysis"
+  ],
+  "missing_evidence": [
+    "Kubernetes/EKS/SageMaker cloud operations not documented",
+    "No production MLOps platform ownership"
+  ],
+  "work_authorization_review": "Not stated in official listing; must confirm OPT and future visa requirements.",
+  "resume_tex_path": "resumes/Kensho_Machine_Learning_Operations_Engineer_I_resume.tex",
+  "resume_modification_highlights": [
+    "Machine learning researcher with Python/PyTorch model-development and evaluation experience, including multimodal post-training and Transformer-based NLP. Interested in reproducible training and evaluation tooling.",
+    "OPD-Aha: Multimodal On-Policy Distillation",
+    "SCoPe: Semantic Context-Adaptive Prototypical Learning",
+    "Context-Specific Feature Augmentation for SDoH Extraction"
+  ],
+  "application_status": "Not applied",
+  "checked_date": "2026-10-31"
+}
