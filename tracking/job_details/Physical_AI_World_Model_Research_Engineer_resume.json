@@ -1,0 +1,26 @@
+{
+  "role": "Physical AI / World Model Research Engineer (potential opportunity)",
+  "company": "Unnamed startup described in professor's email",
+  "location": "San Mateo, CA; in-person preferred",
+  "source": "User-provided email screenshot, not an independently verified public posting",
+  "employment": "Paid part-time internship for enrolled students with potential full-time conversion",
+  "start": "As soon as possible according to email; user's availability not yet confirmed",
+  "requirements": [
+    "Eligible to obtain CPT/OPT immediately or otherwise authorized",
+    "In-person work in San Mateo preferred",
+    "Interest in world models for robotics"
+  ],
+  "fit": [
+    "Multimodal post-training and Qwen VLM evaluation",
+    "Video point correspondence and temporal viewpoint analysis",
+    "Representation learning and deep learning research"
+  ],
+  "gaps": [
+    "No evidenced robotics hardware or robot control experience",
+    "No demonstrated world-model pretraining or model-based RL experience",
+    "No current OPT EAD; eligibility and potential start date require verification"
+  ],
+  "status": "Not applied",
+  "resume": "resumes/Physical_AI_World_Model_Research_Engineer_resume.tex",
+  "note": "Do not represent this as an open verified public posting; professor name and startup name were not supplied."
+}
