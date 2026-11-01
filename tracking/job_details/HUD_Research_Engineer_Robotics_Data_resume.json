@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "company": "HUD",
+  "role": "Research Engineer Robotics Data",
+  "priority": "Medium",
+  "official_job_url": "https://jobs.ashbyhq.com/hud/3fd8c6f6-e42a-484f-9de8-b51f5849be91",
+  "official_page_reviewed_at": "2026-11-01",
+  "location": "San Francisco, CA / remote North America",
+  "compensation": "$100,000-$230,000",
+  "requirements": [
+    "Multimodal model research or robotics experience",
+    "Python and dataset evaluation tools",
+    "Data validation, quality criteria and experiments",
+    "Learning potential emphasized over years"
+  ],
+  "matching_evidence": [
+    "Multimodal Qwen VLM post-training evaluation research",
+    "Clinical data quality, feature imputation and experimental evaluation",
+    "PyTorch representation learning and research methodology"
+  ],
+  "missing_evidence": [
+    "No direct hands-on robot trajectory, sensor or embodied AI dataset experience documented in master",
+    "No imitation learning or VLA deployment documented"
+  ],
+  "work_authorization": "Official posting offers visa/relocation support for strong full-time candidates",
+  "visa_status_assumption": "F-1 enrolled; not yet authorized for post-completion employment; no OPT EAD or green card approval assumed",
+  "application_status": "Not applied",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Selected projects in order: OPD, ICDM, SCoPe",
+    "Reordered research evidence and skills; no unsupported deployment claims"
+  ],
+  "resume_tex_path": "resumes/HUD_Research_Engineer_Robotics_Data_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "source_master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "verification_caveat": "Official current page indexed by web search; dynamic pages may require JS; employer hiring eligibility and application availability require confirmation before submission"
+}

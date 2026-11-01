@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "company": "Prime Intellect",
+  "role": "Research Engineer Data and Evaluation",
+  "priority": "Medium",
+  "official_job_url": "https://jobs.ashbyhq.com/PrimeIntellect/7ef14297-51c3-45b1-abe4-890489a0bddb",
+  "official_page_reviewed_at": "2026-11-01",
+  "location": "San Francisco, CA / US remote",
+  "compensation": "$150,000-$350,000 compensation range; equity details to verify",
+  "requirements": [
+    "Python ML evaluation and data workflows",
+    "Model failure analysis and experiment methodology",
+    "Language models, agent evaluation or RL",
+    "Research ownership and collaborations"
+  ],
+  "matching_evidence": [
+    "OPD-Aha experiments and coauthored visual reasoning evaluation",
+    "ICLR 2026 coauthorship on in-context RL framing",
+    "SCoPe class-conditional representation and rigorous baselines"
+  ],
+  "missing_evidence": [
+    "No demonstrated executable coding agent eval environments or Verifiers platform",
+    "No demonstrated production reward-verifier infrastructure"
+  ],
+  "work_authorization": "Official posting offers visa sponsorship and relocation assistance; individual OPT terms remain unconfirmed",
+  "visa_status_assumption": "F-1 enrolled; not yet authorized for post-completion employment; no OPT EAD or green card approval assumed",
+  "application_status": "Not applied",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Selected projects in order: OPD, SCoPe, Big",
+    "Reordered research evidence and skills; no unsupported deployment claims"
+  ],
+  "resume_tex_path": "resumes/Prime_Intellect_Research_Engineer_Data_and_Evaluation_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "source_master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "verification_caveat": "Official current page indexed by web search; dynamic pages may require JS; employer hiring eligibility and application availability require confirmation before submission"
+}

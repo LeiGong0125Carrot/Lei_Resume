@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "company": "Benchling",
+  "role": "Research Engineer Model Evaluation and Improvement",
+  "priority": "High",
+  "official_job_url": "https://jobs.ashbyhq.com/benchling/3fbb23bd-c06c-49da-8834-4da67200275e",
+  "official_page_reviewed_at": "2026-11-01",
+  "location": "San Francisco, CA (onsite)",
+  "compensation": "$136,435-$265,112 base",
+  "requirements": [
+    "2+ years at biology/AI intersection",
+    "LLM evaluations for biological scientific workflows",
+    "Research tasks and evaluation datasets",
+    "Python and scientific collaboration"
+  ],
+  "matching_evidence": [
+    "UVA clinical NLP and EHR research since January 2024",
+    "SCoPe, ICDM and AMIA clinical modeling; peer-reviewed papers",
+    "Collaborative Qwen VLM post-training and benchmarking"
+  ],
+  "missing_evidence": [
+    "No demonstrated end-to-end biotech production data pipelines",
+    "No documented direct scientist-in-the-loop expert-graded benchmark system"
+  ],
+  "work_authorization": "Not specified: verify F-1 OPT, start date, sponsorship",
+  "visa_status_assumption": "F-1 enrolled; not yet authorized for post-completion employment; no OPT EAD or green card approval assumed",
+  "application_status": "Not applied",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Selected projects in order: Big, AMIA, OPD",
+    "Reordered research evidence and skills; no unsupported deployment claims"
+  ],
+  "resume_tex_path": "resumes/Benchling_Research_Engineer_Model_Evaluation_and_Improvement_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "source_master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "verification_caveat": "Official current page indexed by web search; dynamic pages may require JS; employer hiring eligibility and application availability require confirmation before submission"
+}
