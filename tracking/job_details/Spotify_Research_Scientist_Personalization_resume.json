@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "company": "Spotify",
+  "role": "Research Scientist Personalization",
+  "priority": "High",
+  "official_job_url": "https://www.lifeatspotify.com/jobs/research-scientist-personalization",
+  "official_page_reviewed_at": "2026-11-01",
+  "location": "New York, NY (hybrid)",
+  "compensation": "$133,194-$190,278 base",
+  "requirements": [
+    "Master's or PhD plus ML research",
+    "Peer-reviewed research track record",
+    "Large-model post-training or model evaluation",
+    "Experiment design and ML methodology"
+  ],
+  "matching_evidence": [
+    "UVA M.S. graduating December 2026, coauthor of ICLR 2026 paper",
+    "Coauthor OPD-Aha visual post-training arXiv 2026",
+    "Published ICDM and Big Data empirical research"
+  ],
+  "missing_evidence": [
+    "No personalization/recommender-system production research",
+    "Distributed frontier-scale model training not demonstrated"
+  ],
+  "work_authorization": "No explicit sponsor terms on official role page",
+  "visa_status_assumption": "F-1 enrolled; not yet authorized for post-completion employment; no OPT EAD or green card approval assumed",
+  "application_status": "Not applied",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Selected projects in order: OPD, SCoPe, ICDM",
+    "Reordered research evidence and skills; no unsupported deployment claims"
+  ],
+  "resume_tex_path": "resumes/Spotify_Research_Scientist_Personalization_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "source_master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "verification_caveat": "Official current page indexed by web search; dynamic pages may require JS; employer hiring eligibility and application availability require confirmation before submission"
+}

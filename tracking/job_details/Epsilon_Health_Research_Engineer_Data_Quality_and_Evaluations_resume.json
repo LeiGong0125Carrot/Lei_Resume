@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "company": "Epsilon Health",
+  "role": "Research Engineer Data Quality and Evaluations",
+  "priority": "High",
+  "official_job_url": "https://jobs.ashbyhq.com/epsilon-health/d82e7114-7fab-4329-938a-52cd7bfff538",
+  "official_page_reviewed_at": "2026-11-01",
+  "location": "San Francisco, CA (onsite)",
+  "compensation": "Not independently confirmed on accessible official text",
+  "requirements": [
+    "2+ years ML research or engineering",
+    "Python and research data processing",
+    "Data quality and evaluation benchmarks",
+    "Clinical reports or NLP preferable"
+  ],
+  "matching_evidence": [
+    "2+ years clinical AI graduate research",
+    "MIMIC-III and MIMIC-IV outcome evaluation and clinical NLP",
+    "Model evaluation and Qwen VLM post-training exposure"
+  ],
+  "missing_evidence": [
+    "Medical imaging/radiology-specific benchmark experience not documented",
+    "No demonstrated production LLM-as-judge or clinician review system"
+  ],
+  "work_authorization": "Not specified; request OPT/sponsorship confirmation",
+  "visa_status_assumption": "F-1 enrolled; not yet authorized for post-completion employment; no OPT EAD or green card approval assumed",
+  "application_status": "Not applied",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Selected projects in order: ICDM, SCoPe, OPD",
+    "Reordered research evidence and skills; no unsupported deployment claims"
+  ],
+  "resume_tex_path": "resumes/Epsilon_Health_Research_Engineer_Data_Quality_and_Evaluations_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "source_master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "verification_caveat": "Official current page indexed by web search; dynamic pages may require JS; employer hiring eligibility and application availability require confirmation before submission"
+}

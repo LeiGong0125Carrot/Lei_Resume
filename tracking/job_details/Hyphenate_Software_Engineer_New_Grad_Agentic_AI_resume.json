@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "company": "Hyphenate",
+  "role": "Software Engineer New Grad Agentic AI",
+  "priority": "High",
+  "official_job_url": "https://jobs.ashbyhq.com/hyphenate/67d0c7d0-fddb-4b8d-aed8-0647337a988e",
+  "location": "New York, NY (onsite)",
+  "compensation": "Not stated",
+  "requirements": [
+    "Computer science fundamentals and Python",
+    "Research prototype or software project ownership",
+    "Agent evaluation, context design and LLM pipelines",
+    "Research publications beneficial"
+  ],
+  "matching_evidence": [
+    "ICLR 2026 coauthor and OPD-Aha preprint",
+    "Python and retrieval-augmented clinical NLP",
+    "Qwen multimodal training experiments and evaluation"
+  ],
+  "missing_evidence": [
+    "No documented production agent deployment",
+    "No documented TypeScript/React full-stack experience"
+  ],
+  "work_authorization": "Official employer page explicitly says OPT and longer-term immigration supported; actual start and EAD timeline remain unverified.",
+  "visa_status_assumption": "No post-completion OPT EAD or approved green card assumed",
+  "application_status": "Not applied",
+  "resume_tex_path": "resumes/Hyphenate_Software_Engineer_New_Grad_Agentic_AI_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Reordered master-source research evidence",
+    "Kept hard skill gaps explicit in tracking metadata"
+  ]
+}

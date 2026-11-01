@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "company": "Nomura",
+  "role": "AI Engineer",
+  "priority": "Medium",
+  "official_job_url": "https://careers.nomura.com/Nomura/job/New-York-AI-Engineer-NY-10019/1445133100/",
+  "official_page_reviewed_at": "2026-11-01",
+  "location": "New York, NY",
+  "compensation": "$125,000-$150,000 base",
+  "requirements": [
+    "Master's degree in CS/Statistics or five years relevant exp",
+    "LLM and retrieval-augmented generation",
+    "Python and SQL; APIs and GenAI applications",
+    "Cloud and deployment experience"
+  ],
+  "matching_evidence": [
+    "Master's in CS and Applied Statistics major",
+    "RAG/knowledge-augmented EHR modeling and UMLS biomedical semantic work",
+    "Python/SQL and LLM research methodology"
+  ],
+  "missing_evidence": [
+    "No demonstrated React, AWS enterprise microservices, CI/CD deployment",
+    "No demonstrated customer-facing production conversational agent system"
+  ],
+  "work_authorization": "No explicit visa policy: clarify F-1 OPT and sponsorship",
+  "visa_status_assumption": "F-1 enrolled; not yet authorized for post-completion employment; no OPT EAD or green card approval assumed",
+  "application_status": "Not applied",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Selected projects in order: Big, AMIA, SCoPe",
+    "Reordered research evidence and skills; no unsupported deployment claims"
+  ],
+  "resume_tex_path": "resumes/Nomura_AI_Engineer_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "source_master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "verification_caveat": "Official current page indexed by web search; dynamic pages may require JS; employer hiring eligibility and application availability require confirmation before submission"
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "company": "Nolla Health",
+  "role": "Research Engineer Evals and RL Environments",
+  "priority": "Medium",
+  "official_job_url": "https://jobs.ashbyhq.com/nollahealth/ca4faa24-beaa-46b6-b86e-042342c59434",
+  "official_page_reviewed_at": "2026-11-01",
+  "location": "New York, NY preferred",
+  "compensation": "$180,000-$240,000",
+  "requirements": [
+    "Evaluation or RL environment development",
+    "Research software and experimental reproducibility",
+    "Model evaluation and reliable task scoring",
+    "Healthcare domain knowledge valued"
+  ],
+  "matching_evidence": [
+    "Clinical outcome prediction and interpretable long-note modeling",
+    "OPD-Aha multimodal model evaluation and collaborative post-training",
+    "Peer-reviewed health AI publications"
+  ],
+  "missing_evidence": [
+    "No evidence of deployed executable RL environment or agent eval harness",
+    "No production clinical workflow evaluation system"
+  ],
+  "work_authorization": "Not specified: confirm sponsorship and OPT timing",
+  "visa_status_assumption": "F-1 enrolled; not yet authorized for post-completion employment; no OPT EAD or green card approval assumed",
+  "application_status": "Not applied",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Selected projects in order: SCoPe, OPD, Big",
+    "Reordered research evidence and skills; no unsupported deployment claims"
+  ],
+  "resume_tex_path": "resumes/Nolla_Health_Research_Engineer_Evals_and_RL_Environments_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "source_master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "verification_caveat": "Official current page indexed by web search; dynamic pages may require JS; employer hiring eligibility and application availability require confirmation before submission"
+}

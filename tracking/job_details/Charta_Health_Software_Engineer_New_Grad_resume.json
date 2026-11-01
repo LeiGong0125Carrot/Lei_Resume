@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "company": "Charta Health",
+  "role": "Software Engineer New Grad",
+  "priority": "Medium",
+  "official_job_url": "https://jobs.ashbyhq.com/chartahealth/9403a4cc-1bac-4798-9d82-be31ba8b42a0/",
+  "location": "San Francisco, CA or New York, NY (onsite)",
+  "compensation": "$90,000-$140,000 base, possible bonus",
+  "requirements": [
+    "CS Bachelor's or Master's degree",
+    "Proficiency in Python, Java or similar language",
+    "Owned programming projects and ability to explain engineering decisions",
+    "Interest in generative AI and healthcare"
+  ],
+  "matching_evidence": [
+    "UVA CS master's and Purdue CS B.S.",
+    "Clinical NLP and EHR research and peer-reviewed publications",
+    "Python/SQL and biomedical RAG modeling"
+  ],
+  "missing_evidence": [
+    "No demonstrated commercial production deployment",
+    "No documented TypeScript/React full-stack experience"
+  ],
+  "work_authorization": "Sponsorship or OPT not explicitly stated; confirm before applying.",
+  "visa_status_assumption": "No post-completion OPT EAD or approved green card assumed",
+  "application_status": "Not applied",
+  "resume_tex_path": "resumes/Charta_Health_Software_Engineer_New_Grad_resume.tex",
+  "source_master": "Lei_Resume_Ortet.tex @ main",
+  "master_sha": "50f31d343a4234b06ae121e792ad1ef9cf13e7e4",
+  "tailoring_changes": [
+    "Role-specific summary",
+    "Reordered master-source research evidence",
+    "Kept hard skill gaps explicit in tracking metadata"
+  ]
+}
