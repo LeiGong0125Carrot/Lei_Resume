@@ -41,6 +41,8 @@ jobs:
           test -f main.pdf
       - name: Check Nov 1 one-page PDFs and ATS-extractable text
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils >/dev/null
           command -v pdfinfo
           command -v pdftotext
           for tex in resumes/Benchling_Research_Engineer_Model_Evaluation_and_Improvement_resume.tex resumes/Epsilon_Health_Research_Engineer_Data_Quality_and_Evaluations_resume.tex resumes/Spotify_Research_Scientist_Personalization_resume.tex resumes/Prime_Intellect_Research_Engineer_Data_and_Evaluation_resume.tex resumes/HUD_Research_Engineer_Robotics_Data_resume.tex resumes/Nolla_Health_Research_Engineer_Evals_and_RL_Environments_resume.tex resumes/Nomura_AI_Engineer_resume.tex resumes/Hyphenate_Software_Engineer_New_Grad_Agentic_AI_resume.tex resumes/Charta_Health_Software_Engineer_New_Grad_resume.tex; do
