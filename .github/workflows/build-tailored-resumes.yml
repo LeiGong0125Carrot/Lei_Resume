@@ -39,6 +39,19 @@ jobs:
           cat compiled_pdfs.txt
           test "$source_count" -eq "$pdf_count"
           test -f main.pdf
+      - name: Validate one-page and selectable text in each resume
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          for src in resumes/*_resume.tex; do
+            pdf="${src%.tex}.pdf"
+            test -f "$pdf"
+            pages=$(pdfinfo "$pdf" | awk '/^Pages:/ {print $2}')
+            textchars=$(pdftotext "$pdf" - | wc -m)
+            echo "$pdf: $pages page(s), $textchars extracted chars"
+            test "$pages" -eq 1
+            test "$textchars" -ge 800
+          done
       - name: Upload PDFs for review
         uses: actions/upload-artifact@v4
         with:
