@@ -1,0 +1,22 @@
+{
+  "company": "Distyl AI",
+  "role": "Research Engineers, Data",
+  "priority": "High",
+  "location": "New York, NY / San Francisco, CA (hybrid)",
+  "salary": "$150,000-$250,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/Distyl/fe44469c-0f27-408c-878c-5e296b7db50e",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Collect, transform and evaluate domain data for AI",
+    "Build retrieval and labeling datasets",
+    "Data-quality metrics, missingness and failure analysis"
+  ],
+  "matching_evidence": "ICDM context-aware imputation; SCoPe semantic unit aggregation; Big Data retrieval and UMLS grounding",
+  "gaps": "No demonstrated customer-facing enterprise ETL pipelines, production SQL warehousing or data platform ops",
+  "work_authorization": "Not specified; must confirm future work authorization support",
+  "resume_focus": "data quality, missing clinical features, semantic data organization and retrieval corpora",
+  "review_notes": "Place feature imputation and SDoH retrieval before model post-training; distinguish research evaluation from enterprise ETL.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Distyl_AI_Research_Engineer_Data_resume.tex",
+  "date": "2026-11-02"
+}

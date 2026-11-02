@@ -1,0 +1,22 @@
+{
+  "company": "Distyl AI",
+  "role": "Applied AI Researcher, Post-Training",
+  "priority": "Medium",
+  "location": "New York, NY / San Francisco, CA (hybrid)",
+  "salary": "$150,000-$250,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/Distyl/4d08070a-2a80-4eaa-b702-04d80dc2ac59",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Research supervised fine-tuning and preference optimization",
+    "Design post-training experiments, model adaptation and evaluation",
+    "Strong research publication or artifact track record"
+  ],
+  "matching_evidence": "OPD-Aha collaborative research; Qwen3.5-4B/9B post-training; empirical model comparison",
+  "gaps": "No evidenced end-to-end RLHF/DPO/GRPO production pipeline or large frontier-scale training leadership",
+  "work_authorization": "Not stated; confirm OPT/future sponsorship directly",
+  "resume_focus": "multimodal distillation and preference-based target reconstruction; model adaptation",
+  "review_notes": "Emphasize collaborative contribution only; no unsupported RLHF/DPO ownership claims.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Distyl_AI_Applied_AI_Researcher_Post_Training_resume.tex",
+  "date": "2026-11-02"
+}

@@ -1,0 +1,22 @@
+{
+  "company": "Capable Labs",
+  "role": "Machine Learning Engineer",
+  "priority": "High",
+  "location": "San Francisco, CA (on-site)",
+  "salary": "Not publicly stated; equity offered",
+  "official_apply_link": "https://jobs.ashbyhq.com/capable/06bf1e55-a317-462a-872d-472caef579ab/",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "ML systems for biomolecular drug discovery",
+    "Literature triage, candidate analysis, prediction and evaluation",
+    "Familiarity with biomolecular modeling is preferred but not mandatory"
+  ],
+  "matching_evidence": "Clinical NLP and literature retrieval; EHR outcome prediction; UMLS grounding; reproducible model evaluation",
+  "gaps": "No first-hand protein structure, ESM/AlphaFold or wet-lab active-learning experience",
+  "work_authorization": "Employer says it supports sponsorship where appropriate; confirm F-1 OPT and start date",
+  "resume_focus": "biomedical information extraction; literature-based RAG; predictive modeling for data-scarce drug development",
+  "review_notes": "Lead with retrieval and biomedical grounding; explicitly do not claim molecular simulation or protein modeling.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Capable_Labs_Machine_Learning_Engineer_resume.tex",
+  "date": "2026-11-02"
+}

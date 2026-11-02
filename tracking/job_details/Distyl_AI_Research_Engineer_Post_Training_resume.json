@@ -1,0 +1,22 @@
+{
+  "company": "Distyl AI",
+  "role": "Research Engineers, Post-Training",
+  "priority": "High",
+  "location": "New York, NY / San Francisco, CA (hybrid)",
+  "salary": "$150,000-$250,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/Distyl/96951117-efef-4f27-bbc4-671559d4af30/",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Design and run post-training experiments",
+    "Preference signals, feedback loops, model evaluation",
+    "Experimental programming and behavior/failure-mode analysis"
+  ],
+  "matching_evidence": "OPD-Aha Qwen post-training and reported +4.0/+3.2 pp benchmark gains; model comparison and failure analysis",
+  "gaps": "No demonstrated enterprise post-training system in production or large distributed reward training infrastructure",
+  "work_authorization": "Not stated on the job page; confirm future sponsorship and OPT start constraints",
+  "resume_focus": "multimodal on-policy distillation; preference signals; rigorous visual-model evaluation",
+  "review_notes": "Place OPD-Aha first, explicitly label coauthored gains, and emphasize evaluation without overstating deployment.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Distyl_AI_Research_Engineer_Post_Training_resume.tex",
+  "date": "2026-11-02"
+}

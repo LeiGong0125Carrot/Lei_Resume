@@ -1,0 +1,22 @@
+{
+  "company": "Distyl AI",
+  "role": "Research Engineers, Agents",
+  "priority": "Medium",
+  "location": "New York, NY / San Francisco, CA (hybrid)",
+  "salary": "$150,000-$250,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/Distyl/462996c2-f91d-4f21-bf77-7215a0be3d73",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Design and evaluate agentic and compound AI systems",
+    "Integrate retrieval and tools into AI workflows",
+    "Analyze agent failure modes and optimize model behavior"
+  ],
+  "matching_evidence": "Retrieval-augmented EHR NLP; UMLS/knowledge graph; Qwen visual reasoning evaluations",
+  "gaps": "No proven agent orchestration runtime, tool-calling infrastructure or enterprise deployment experience",
+  "work_authorization": "No explicit sponsorship statement; needs employer confirmation",
+  "resume_focus": "RAG, clinical knowledge, multimodal reasoning and evaluations",
+  "review_notes": "Lead with retrieval and knowledge graph evidence, noting no claims of deployed autonomous agents.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Distyl_AI_Research_Engineer_Agents_resume.tex",
+  "date": "2026-11-02"
+}

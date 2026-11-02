@@ -1,0 +1,22 @@
+{
+  "company": "Ataraxis AI",
+  "role": "Member of Technical Staff, Research Engineer",
+  "priority": "High",
+  "location": "New York City, NY (on-site)",
+  "salary": "$120,000-$210,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/ataraxis-ai/fc2fd799-9b3a-4169-a27e-efed65004c8e/",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "ML research and model development",
+    "Patient outcome prediction and precision medicine",
+    "Efficient GPU experimentation and deployment"
+  ],
+  "matching_evidence": "M.S. CS; interpretable patient outcome prediction; PyTorch/Transformers; ICDM 2025 and SCoPe",
+  "gaps": "No demonstrated oncology biomolecular modeling or production cloud GPU inference",
+  "work_authorization": "Official listing mentions visa sponsorship for exceptional candidates; exact F-1 eligibility and start date unconfirmed",
+  "resume_focus": "clinical outcome prediction; reliable multimodal machine learning; deep learning experimentation",
+  "review_notes": "Lead with clinical prediction metrics, then clinical feature imputation, then visual model evaluation.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Ataraxis_AI_Member_of_Technical_Staff_Research_Engineer_resume.tex",
+  "date": "2026-11-02"
+}
