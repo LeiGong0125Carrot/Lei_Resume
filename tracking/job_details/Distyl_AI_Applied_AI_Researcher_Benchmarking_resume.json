@@ -1,0 +1,22 @@
+{
+  "company": "Distyl AI",
+  "role": "Applied AI Researcher, Benchmarking",
+  "priority": "High",
+  "location": "New York, NY / San Francisco, CA (hybrid)",
+  "salary": "$150,000-$250,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/Distyl/cf166cd0-c30f-41c8-8e43-fa38e323014d",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Design, run and interpret AI benchmarks",
+    "Statistical rigor and reproducible experiment design",
+    "Prototype evaluations for compound AI systems"
+  ],
+  "matching_evidence": "OPD-Aha benchmark experiments; SCoPe and clinical benchmarks; statistical CS education and ICLR coauthorship",
+  "gaps": "No documented production agent evaluation, adversarial robustness infra, or longitudinal deployed testing",
+  "work_authorization": "Not stated on employer page; verify eligibility directly",
+  "resume_focus": "evaluations; fair reproducible benchmarks; multi-model error analysis",
+  "review_notes": "Prioritize evaluation protocol evidence and avoid claiming deployed agentic testing infrastructure.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Distyl_AI_Applied_AI_Researcher_Benchmarking_resume.tex",
+  "date": "2026-11-02"
+}

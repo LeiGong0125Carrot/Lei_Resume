@@ -1,0 +1,22 @@
+{
+  "company": "Forus",
+  "role": "Research Engineer",
+  "priority": "Medium",
+  "location": "New York, NY (on-site)",
+  "salary": "$170,000-$300,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/forus/bf912127-f3f7-4d87-990c-46db7df333bb",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Research and build LLM-based applied AI",
+    "Translate healthcare business workflows into evaluated ML solutions",
+    "Take responsibility for end-to-end product improvements"
+  ],
+  "matching_evidence": "Clinical note extraction, literature-grounded RAG, SDoH and outcome prediction",
+  "gaps": "No experience deploying LLM applications to production or owning pharmaceutical insurance workflows",
+  "work_authorization": "Not specified; verify work authorization constraints with employer",
+  "resume_focus": "clinical workflow automation and LLM information retrieval; RAG and evaluation",
+  "review_notes": "Highlight applied clinical text analytics, not unverified claims of drug-access workflows or production systems.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Forus_Research_Engineer_resume.tex",
+  "date": "2026-11-02"
+}

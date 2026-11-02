@@ -1,0 +1,22 @@
+{
+  "company": "Mirendil",
+  "role": "Member of Technical Staff, Model Evaluation",
+  "priority": "Stretch",
+  "location": "San Francisco, CA (on-site)",
+  "salary": "$300,000-$400,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/mirendil/2c7c136a-b24b-456f-afb3-d5530bad84b5",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Design and implement model evaluations",
+    "Build scalable regression detection and human inspection workflows",
+    "Work with training teams to connect evaluation and progress"
+  ],
+  "matching_evidence": "OPD-Aha eval and controlled model comparisons; ICLR and ICDM publications; quantitative research",
+  "gaps": "No continuous scalable eval platform, regression detection infra or formal frontier RL model observability",
+  "work_authorization": "Not stated, confirm actual eligibility, start and sponsorship terms",
+  "resume_focus": "frontier model evaluation and controlled multimodal experiments",
+  "review_notes": "Emphasize evaluation/analysis and transparently note infrastructure experience gap.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Mirendil_Member_of_Technical_Staff_Model_Evaluation_resume.tex",
+  "date": "2026-11-02"
+}

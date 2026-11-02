@@ -1,0 +1,22 @@
+{
+  "company": "Mercor",
+  "role": "Research Engineer - Environments, Data and Post-Training",
+  "priority": "High",
+  "location": "San Francisco, CA (on-site)",
+  "salary": "$180,000-$500,000",
+  "official_apply_link": "https://jobs.ashbyhq.com/mercor/97b8c17e-e438-4b61-bab1-9ae18e2c3f34",
+  "source": "Company-hosted live career page reviewed on 2026-11-02",
+  "requirements": [
+    "Hands-on post-training or model evaluation",
+    "Build data pipelines and benchmark experiments",
+    "Strong research/engineering fundamentals"
+  ],
+  "matching_evidence": "OPD-Aha Qwen post-training and empirical evaluation; ICLR coauthorship; Python/PyTorch",
+  "gaps": "No hands-on RLVR/GRPO, reward shaping for tool-use agents, or production-scale data pipelines",
+  "work_authorization": "Official posting does not state sponsorship; verify OPT feasibility and start time",
+  "resume_focus": "post-training experiment analysis, verifiable data and visual reasoning evaluation",
+  "review_notes": "Lead with OPD-Aha and ICLR, clearly distinguish from reinforcement learning with verifiable rewards.",
+  "status": "Not applied (no application submitted by assistant)",
+  "resume_tex_path": "resumes/Mercor_Research_Engineer_Environments_Data_Post_Training_resume.tex",
+  "date": "2026-11-02"
+}
